@@ -636,40 +636,40 @@ export default function HomePageClient({
             </p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.buildARingFarmGearShopGuide.cards.map(
-              (card: any, index: number) => (
+            {t.modules.buildARingFarmGearShopGuide.items.map(
+              (item: any, index: number) => (
                 <div
                   key={index}
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                    <LinkedTitle
-                      linkData={
-                        moduleLinkMap[
-                          `buildARingFarmGearShopGuide::cards::${index}`
-                        ]
-                      }
-                      locale={locale}
-                    >
-                      {card.name}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    {card.description}
+                  <div className="flex items-center justify-between gap-3 mb-2">
+                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
+                      <LinkedTitle
+                        linkData={
+                          moduleLinkMap[
+                            `buildARingFarmGearShopGuide::items::${index}`
+                          ]
+                        }
+                        locale={locale}
+                      >
+                        {item.item}
+                      </LinkedTitle>
+                    </h3>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {item.cost}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-2">
+                    {item.effect}
                   </p>
-                </div>
-              ),
-            )}
-          </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.buildARingFarmGearShopGuide.highlights.map(
-              (h: string, i: number) => (
-                <div
-                  key={i}
-                  className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
-                  <p className="text-sm">{h}</p>
+                  <p className="text-sm mb-2">
+                    <span className="font-semibold">Income:</span>{" "}
+                    {item.incomeMultiplier}
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    <span className="font-semibold text-foreground">Best use:</span>{" "}
+                    {item.bestUse}
+                  </p>
                 </div>
               ),
             )}
@@ -693,33 +693,34 @@ export default function HomePageClient({
               {t.modules.buildARingFarmMoneyFarmingGuide.intro}
             </p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.buildARingFarmMoneyFarmingGuide.regions.map(
-              (region: any, index: number) => (
+          <div className="scroll-reveal space-y-4">
+            {t.modules.buildARingFarmMoneyFarmingGuide.items.map(
+              (step: any, index: number) => (
                 <div
                   key={index}
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
                   <div className="flex items-center gap-3 mb-3">
-                    <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `buildARingFarmMoneyFarmingGuide::regions::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {region.name}
-                      </LinkedTitle>
-                    </h3>
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      {region.type}
-                    </span>
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.15)] text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                      {step.step}
+                    </div>
+                    <LinkedTitle
+                      linkData={
+                        moduleLinkMap[
+                          `buildARingFarmMoneyFarmingGuide::items::${index}`
+                        ]
+                      }
+                      locale={locale}
+                    >
+                      {step.title}
+                    </LinkedTitle>
                   </div>
+                  <p className="text-sm mb-2">
+                    <span className="font-semibold">Action:</span> {step.action}
+                  </p>
                   <p className="text-muted-foreground text-sm">
-                    {region.description}
+                    <span className="font-semibold text-foreground">Why it works:</span>{" "}
+                    {step.whyItWorks}
                   </p>
                 </div>
               ),
@@ -745,33 +746,43 @@ export default function HomePageClient({
             </p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.buildARingFarmWeatherEventsGuide.creatures.map(
-              (c: any, index: number) => (
+            {t.modules.buildARingFarmWeatherEventsGuide.items.map(
+              (item: any, index: number) => (
                 <div
                   key={index}
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="mb-3">
-                    <span
-                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
-                    >
-                      {c.role}
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {item.mutation}
+                    </span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]">
+                      {item.chance}
                     </span>
                   </div>
                   <h3 className="font-bold mb-2">
                     <LinkedTitle
                       linkData={
                         moduleLinkMap[
-                          `buildARingFarmWeatherEventsGuide::creatures::${index}`
+                          `buildARingFarmWeatherEventsGuide::items::${index}`
                         ]
                       }
                       locale={locale}
                     >
-                      {c.name}
+                      {item.event}
                     </LinkedTitle>
                   </h3>
+                  <p className="text-sm mb-1">
+                    <span className="font-semibold">Income:</span>{" "}
+                    {item.incomeMultiplier}
+                  </p>
+                  <p className="text-sm mb-1">
+                    <span className="font-semibold">Appearance:</span>{" "}
+                    {item.appearance}
+                  </p>
                   <p className="text-muted-foreground text-sm">
-                    {c.description}
+                    <span className="font-semibold text-foreground">Tip:</span>{" "}
+                    {item.playerTip}
                   </p>
                 </div>
               ),
@@ -803,10 +814,10 @@ export default function HomePageClient({
                   key={index}
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="flex items-center gap-2 mb-3">
+                  <div className="flex items-center justify-between gap-2 mb-3">
                     <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      {item.type}
+                      {item.status}
                     </span>
                   </div>
                   <h3 className="font-bold mb-2">
@@ -821,23 +832,27 @@ export default function HomePageClient({
                       {item.name}
                     </LinkedTitle>
                   </h3>
+                  {item.url ? (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-[hsl(var(--nav-theme-light))] hover:underline break-all"
+                    >
+                      {item.url}
+                    </a>
+                  ) : (
+                    <p className="text-xs text-muted-foreground">No public URL listed</p>
+                  )}
+                  <p className="text-sm mt-2 mb-1">
+                    <span className="font-semibold">What players find:</span>{" "}
+                    {item.whatPlayersFind}
+                  </p>
                   <p className="text-muted-foreground text-sm">
-                    {item.description}
+                    <span className="font-semibold text-foreground">Best for:</span>{" "}
+                    {item.bestFor}
                   </p>
                 </div>
-              ),
-            )}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.buildARingFarmWikiTrelloDiscordGuide.unlockMilestones.map(
-              (m: string, i: number) => (
-                <span
-                  key={i}
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm"
-                >
-                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                  {m}
-                </span>
               ),
             )}
           </div>

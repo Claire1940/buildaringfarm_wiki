@@ -224,119 +224,220 @@
     },
     "buildARingFarmGearShopGuide": {
       "title": "Build A Ring Farm Gear Shop Guide",
-      "intro": "The Build A Ring Farm gear shop is where sprays and utility items convert cash into higher multiplier consistency.",
-      "cards": [
+      "intro": "The Build A Ring Farm Gear Shop is strongest after your farm cash flow is stable. Sprays apply direct mutation boosts, and code rewards provide free progression support in early sessions.",
+      "items": [
         {
-          "name": "Wet Spray",
-          "description": "Low-cost first spray to stabilize your early mutation value."
+          "item": "Wet Spray",
+          "cost": "$10M",
+          "effect": "Applies the Wet mutation",
+          "incomeMultiplier": "1.5x",
+          "bestUse": "Start here when you need a low-cost mutation boost."
         },
         {
-          "name": "Frozen Spray",
-          "description": "Mid-tier option when your cash loop can support frequent upgrades."
+          "item": "Frozen Spray",
+          "cost": "$750M",
+          "effect": "Applies the Frozen mutation",
+          "incomeMultiplier": "1.75x",
+          "bestUse": "Use after your farm can absorb larger upgrade spending."
         },
         {
-          "name": "Void Spray",
-          "description": "Strong scaling spray for mid-to-late progression crops."
+          "item": "Void Spray",
+          "cost": "$1B",
+          "effect": "Applies the Void mutation",
+          "incomeMultiplier": "2.25x",
+          "bestUse": "Strong mid-to-late option for valuable crops."
         },
         {
-          "name": "Radioactive Spray",
-          "description": "High-value spray that boosts premium plot earnings noticeably."
+          "item": "Radioactive Spray",
+          "cost": "$10B",
+          "effect": "Applies the Radioactive mutation",
+          "incomeMultiplier": "3x",
+          "bestUse": "Best on premium plants where the high cost is justified."
+        },
+        {
+          "item": "Rainbow Spray",
+          "cost": "$1T",
+          "effect": "Applies the Rainbow mutation",
+          "incomeMultiplier": "5x",
+          "bestUse": "Save for your highest-value crop for max returns."
+        },
+        {
+          "item": "Acid Spray",
+          "cost": "$1M",
+          "effect": "Removes a plant mutation",
+          "incomeMultiplier": "No direct multiplier",
+          "bestUse": "Clear weak mutations before trying for better rolls."
+        },
+        {
+          "item": "Strong Fertilizer",
+          "cost": "Code reward",
+          "effect": "Speeds farm progression after redeeming rewards",
+          "incomeMultiplier": "No direct mutation multiplier",
+          "bestUse": "Use early when you need to reach your next upgrade target."
         }
-      ],
-      "highlights": [
-        "Start with cheaper sprays",
-        "Pair sprays with top crops",
-        "Avoid low-value overuse",
-        "Save for premium upgrades"
       ]
     },
     "buildARingFarmMoneyFarmingGuide": {
       "title": "Build A Ring Farm Money Farming Guide",
-      "intro": "Build A Ring Farm money growth comes from short harvest loops, smart reinvestment, and keeping upgrades aligned with your best crops.",
-      "regions": [
+      "intro": "Build A Ring Farm rewards active reinvestment. Keep crops moving, convert rewards into momentum, and prioritize upgrades that scale each harvest loop.",
+      "items": [
         {
-          "name": "Fast Harvest Loop",
-          "type": "Core Route",
-          "description": "Harvest and sell continuously to keep cash circulating through upgrades."
+          "step": 1,
+          "title": "Plant and harvest continuously",
+          "action": "Keep every plot active, harvest on time, and sell for cash without long idle gaps.",
+          "whyItWorks": "The core loop is built around repeated grow, harvest, sell, upgrade, and expand cycles."
         },
         {
-          "name": "Upgrade Priority",
-          "type": "Reinvestment",
-          "description": "Choose expansion and efficiency upgrades before optional side purchases."
+          "step": 2,
+          "title": "Redeem free starter rewards",
+          "action": "Use active codes like 100KVISITS, 2KLIKES, and UPDATE1 for Time Skip, seed packs, and fertilizer boosts.",
+          "whyItWorks": "Free rewards accelerate early growth before your farm has strong natural income."
         },
         {
-          "name": "Mutation Windows",
-          "type": "Multiplier Timing",
-          "description": "Plan your best crops around active weather events for better returns."
+          "step": 3,
+          "title": "Reinvest cash into scaling upgrades",
+          "action": "Buy seeds, machinery, sprinklers, saws, and expansion instead of stockpiling currency.",
+          "whyItWorks": "Upgrade-based scaling raises total output and unlocks bigger expansion milestones."
         },
         {
-          "name": "Offline Collect Cycle",
-          "type": "Idle Income",
-          "description": "Return often to claim offline gains and reinvest immediately."
+          "step": 4,
+          "title": "Expand when output is stable",
+          "action": "Purchase more plots once your current ring area is generating consistent cash flow.",
+          "whyItWorks": "More active plots increase total harvest volume per cycle."
+        },
+        {
+          "step": 5,
+          "title": "Use fertilizer at progression breakpoints",
+          "action": "Spend Strong Fertilizers when they can help you unlock the next major upgrade sooner.",
+          "whyItWorks": "Timing limited boosts around upgrade gates improves overall efficiency."
+        },
+        {
+          "step": 6,
+          "title": "Prioritize mutated high-value crops",
+          "action": "Focus event and spray boosts on your strongest crops before spending effort on weaker plots.",
+          "whyItWorks": "Mutations multiply value most when applied to already-profitable crops."
+        },
+        {
+          "step": 7,
+          "title": "Stay online during weather events",
+          "action": "Remain in-game when Rain, Blizzard, Black Hole, Nuclear, and Galaxy events trigger.",
+          "whyItWorks": "Event mutation rolls only happen while you are actively online."
+        },
+        {
+          "step": 8,
+          "title": "Use offline earnings as support income",
+          "action": "Collect offline gains, then reinvest immediately into upgrades and expansion plans.",
+          "whyItWorks": "Offline income helps, but active mutation timing still drives faster growth."
         }
       ]
     },
     "buildARingFarmWeatherEventsGuide": {
       "title": "Build A Ring Farm Weather Events Guide",
-      "intro": "Weather events in Build A Ring Farm determine when key mutations are available, so event awareness directly affects farm value.",
-      "creatures": [
+      "intro": "Build A Ring Farm weather events are a free path to mutation multipliers. Rarer events usually give stronger returns, so timing matters.",
+      "items": [
         {
-          "name": "Rain Event",
-          "role": "Wet Mutation",
-          "description": "Most frequent event and best for steady early-game mutation uptime."
+          "event": "Rain Event",
+          "mutation": "Wet",
+          "chance": "8%",
+          "incomeMultiplier": "1.5x",
+          "appearance": "Water-like plant appearance",
+          "playerTip": "Best early event because it has the highest listed chance."
         },
         {
-          "name": "Blizzard Event",
-          "role": "Frozen Mutation",
-          "description": "Good mid-tier event for bridging into stronger multiplier stages."
+          "event": "Blizzard Event",
+          "mutation": "Frozen",
+          "chance": "4%",
+          "incomeMultiplier": "1.75x",
+          "appearance": "Frozen plant appearance",
+          "playerTip": "A useful step up when it lands on a strong crop."
         },
         {
-          "name": "Black Hole Event",
-          "role": "Void Mutation",
-          "description": "Important event when building into mid-to-late value crops."
+          "event": "Black Hole Event",
+          "mutation": "Void",
+          "chance": "3%",
+          "incomeMultiplier": "2.25x",
+          "appearance": "Black plant appearance",
+          "playerTip": "Strong event mutation for valuable crops and scaling routes."
         },
         {
-          "name": "Nuclear Event",
-          "role": "Radioactive Mutation",
-          "description": "High-impact event that can lift earnings on your top plots."
+          "event": "Nuclear Event",
+          "mutation": "Radioactive",
+          "chance": "2%",
+          "incomeMultiplier": "3x",
+          "appearance": "Green neon plant appearance",
+          "playerTip": "Low chance but excellent payoff when applied to top crops."
         },
         {
-          "name": "Galaxy Event",
-          "role": "Rainbow Mutation",
-          "description": "Best event for maximum multiplier outcomes and premium crop pushes."
+          "event": "Galaxy Event",
+          "mutation": "Rainbow",
+          "chance": "1%",
+          "incomeMultiplier": "5x",
+          "appearance": "Dynamic color-changing plant appearance",
+          "playerTip": "Highest-value event mutation with the rarest listed odds."
+        },
+        {
+          "event": "Offline Farming",
+          "mutation": "None from events",
+          "chance": "0% while offline",
+          "incomeMultiplier": "No event mutation gain while offline",
+          "appearance": "No new event mutation",
+          "playerTip": "Offline earnings continue, but event mutations require online presence."
         }
       ]
     },
     "buildARingFarmWikiTrelloDiscordGuide": {
       "title": "Build A Ring Farm Wiki Trello and Discord Guide",
-      "intro": "Use this Build A Ring Farm community module to track official pages and stay synced with update drops and code posts.",
+      "intro": "Use official Build A Ring Farm channels first. Public Trello and official wiki links are not listed, so Roblox, Discord, and trusted code pages are the main update sources.",
       "items": [
         {
-          "name": "Roblox Game Page",
-          "type": "Official",
-          "description": "Primary source for playing, update notes, and social links."
+          "name": "Official Roblox Game Page",
+          "status": "Available",
+          "url": "https://www.roblox.com/games/107646426076756/Build-A-Ring-Farm",
+          "whatPlayersFind": "Play link, creator details, game description, and official social links.",
+          "bestFor": "Joining the game and checking the primary official source."
         },
         {
-          "name": "Gamecreates Group",
-          "type": "Official",
-          "description": "Publisher group page for announcements and community visibility."
+          "name": "Developer Group",
+          "status": "Available",
+          "url": "https://www.roblox.com/communities/33167294/Gamecreates",
+          "whatPlayersFind": "Gamecreates listed as the developer community for Build A Ring Farm.",
+          "bestFor": "Finding the creator group and related community updates."
         },
         {
-          "name": "Discord Access Route",
-          "type": "Community",
-          "description": "Use Roblox social links to join the latest active Discord invite."
+          "name": "Official Discord",
+          "status": "Available",
+          "url": "https://discord.com/invite/gamecreates",
+          "whatPlayersFind": "Code channels, update announcements, and active player discussions.",
+          "bestFor": "Checking new codes and patch announcements quickly."
         },
         {
-          "name": "Community Update Watch",
-          "type": "Tracking",
-          "description": "Check code modules and official channels after each patch."
+          "name": "Public Trello",
+          "status": "Not listed",
+          "url": "",
+          "whatPlayersFind": "No public Trello board is listed for Build A Ring Farm right now.",
+          "bestFor": "Use Discord and the Roblox game page for updates."
+        },
+        {
+          "name": "Public Wiki",
+          "status": "Not listed",
+          "url": "",
+          "whatPlayersFind": "No official public wiki is listed for Build A Ring Farm right now.",
+          "bestFor": "Use this site plus official pages for current information."
+        },
+        {
+          "name": "Creator Exchange Page",
+          "status": "Available",
+          "url": "https://creatorexchange.io/roblox-game/10039338037/build-a-ring-farm",
+          "whatPlayersFind": "Creator, genre, CCU snapshot, like ratio, and Roblox page linkage.",
+          "bestFor": "Quick popularity and category overview."
+        },
+        {
+          "name": "Code Update Pages",
+          "status": "Available",
+          "url": "https://www.destructoid.com/build-a-ring-farm-codes/",
+          "whatPlayersFind": "Active codes, expired entries, redeem steps, and update notes.",
+          "bestFor": "Finding code rewards quickly without manual channel scanning."
         }
-      ],
-      "unlockMilestones": [
-        "Follow official Roblox page",
-        "Join publisher group",
-        "Track code refresh windows",
-        "Bookmark this wiki hub"
       ]
     }
   },
