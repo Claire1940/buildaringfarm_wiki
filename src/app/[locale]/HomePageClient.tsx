@@ -252,6 +252,19 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-4xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="Rh1-7n6w6vE"
+              title="Build A Ring Farm Gameplay"
+              posterImage="/images/hero.webp"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Tools Grid - 8 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-4xl">
@@ -327,19 +340,6 @@ export default function HomePageClient({
 
       {/* 广告位 2: 首屏内容之后再加载广告 */}
       <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-4xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="Rh1-7n6w6vE"
-              title="Build A Ring Farm Gameplay"
-              posterImage="/images/hero.webp"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
