@@ -1,933 +1,640 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Build A Ring Farm Wiki - Códigos, Cultivos y Mutaciones",
+      "description": "Build A Ring Farm Wiki cubre códigos activos, semillas, cultivos, mutaciones, mejoras de equipo, eventos climáticos y rutas de farmeo de dinero para jugadores de Roblox.",
+      "keywords": "Build A Ring Farm, Build A Ring Farm wiki, códigos, cultivos, mutaciones, mejoras, guía de farmeo de Roblox",
+      "ogTitle": "Build A Ring Farm Wiki - Códigos, Cultivos y Mutaciones",
+      "ogDescription": "Build A Ring Farm Wiki cubre códigos activos, semillas, cultivos, mutaciones, mejoras de equipo, eventos climáticos y rutas de farmeo de dinero para jugadores de Roblox.",
+      "twitterTitle": "Build A Ring Farm Wiki - Códigos, Cultivos y Mutaciones",
+      "twitterDescription": "Build A Ring Farm Wiki cubre códigos activos, semillas, cultivos, mutaciones, mejoras y guías de farmeo de dinero."
     }
   },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "farming": "Farming",
-    "seeds": "Seeds",
-    "mutations": "Mutations",
-    "upgrades": "Upgrades",
-    "controls": "Controls"
+    "codes": "Códigos",
+    "guide": "Guía",
+    "farming": "Farmeo",
+    "seeds": "Semillas",
+    "mutations": "Mutaciones",
+    "upgrades": "Mejoras",
+    "controls": "Controles"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
-    "switchLanguage": "Cambiar idioma",
-    "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
-    "darkMode": "Modo oscuro",
-    "notFound": "Página no encontrada",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar Idioma",
+    "switchTheme": "Cambiar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "notFound": "Página No Encontrada",
     "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos Relacionados",
+    "readMore": "Leer Más",
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Simulador de Granja de Anillos de Roblox",
+    "title": "Build A Ring Farm Wiki",
+    "description": "Cultiva, expande tu granja en forma de anillo, vende cosechas por dinero, usa mejoras, reclama recompensas y optimiza los ingresos sin conexión en este simulador de agricultura de Roblox.",
+    "getFreeCodesCTA": "Obtener Códigos Gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "3.1M+",
+        "label": "Visitas Totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "14.2K",
+        "label": "Jugadores en Línea"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "102.1K",
+        "label": "Favoritos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "98%",
+        "label": "Ratio de Me Gusta"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Build A Ring Farm",
+    "description": "Planta semillas, cosecha cultivos, activa mutaciones, mejora los aerosoles y escala tu granja de anillos con mejores ciclos de ingresos."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Build A Ring Farm",
+    "titleHighlight": "Navegación",
+    "subtitle": "Salta a los módulos más útiles de Build A Ring Farm",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Códigos de Build A Ring Farm",
+        "description": "Códigos activos y caducados, además de soluciones rápidas de canje"
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "title": "Guía para principiantes de Build A Ring Farm",
+        "description": "Ruta de la primera sesión, desde la siembra hasta las mejoras"
       },
       {
         "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "title": "Lista de niveles de mutaciones de Build A Ring Farm",
+        "description": "Multiplicadores de mutación, probabilidades de eventos y mejores elecciones"
       },
       {
         "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "title": "Guía de semillas y cultivos de Build A Ring Farm",
+        "description": "Recompensas de paquetes de semillas, rutas de cultivo y notas de valor"
       },
       {
         "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "title": "Guía de la tienda de equipos de Build A Ring Farm",
+        "description": "Pulverizadores, fertilizantes y mejor orden de compra"
       },
       {
         "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "title": "Guía de cultivo de dinero en Build A Ring Farm",
+        "description": "Ciclos de efectivo, estrategia de reinversión y consejos de escalado"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "title": "Guía de eventos climáticos de Build A Ring Farm",
+        "description": "Desde la lluvia hasta el evento Galaxy: tiempos y planificación de mutaciones"
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
-      },
-      {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de Wiki Trello y Discord de Build A Ring Farm",
+        "description": "Enlaces oficiales y dónde se publican las actualizaciones"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+    "buildARingFarmCodes": {
+      "title": "Códigos de Build A Ring Farm",
+      "intro": "Usa los últimos códigos de Build A Ring Farm para obtener mejoras gratuitas, luego canjéalos antes de que roten en futuras actualizaciones.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Canjear 100KVISITS",
+          "description": "Recompensa: Salto de tiempo de 5 minutos. Úsalo cuando tu cola de granja esté llena para saltarte la espera y cobrar más rápido."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Canjear 2KLIKES",
+          "description": "Recompensa: 1 paquete de semillas tropicales. Ábrelo temprano para acelerar la progresión de tus semillas y el valor inicial de tus cultivos."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Canjear UPDATE1",
+          "description": "Recompensa: 3 fertilizantes fuertes. Guárdalos para cultivos de mayor valor y obtener mejores rendimientos."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Verificar códigos caducados",
+          "description": "Aún no hay códigos caducados de Build A Ring Farm. Vuelve a revisar este módulo después de cada ciclo de actualización."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Completa el tutorial antes de canjear el código.",
+        "Pega los códigos exactamente como se muestran, sin espacios adicionales.",
+        "Si un código falla, únete a otro servidor e inténtalo de nuevo.",
+        "Canjea los códigos activos lo antes posible para evitar perder recompensas."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+    "buildARingFarmBeginnerGuide": {
+      "title": "Guía para principiantes de Build A Ring Farm",
+      "intro": "Esta ruta para principiantes de Build A Ring Farm se enfoca en un crecimiento temprano eficiente: plantar, cosechar, vender y reinvertir en la expansión.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Termina el tutorial rápido",
+          "description": "Completa primero el flujo de incorporación para desbloquear el canje de códigos y las acciones principales de la granja."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Planta cada parcela",
+          "description": "Mantén las parcelas activas en todo momento para que tu ciclo de efectivo comience a escalar de inmediato."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Vende frecuentemente",
+          "description": "Los ciclos de venta rápidos financian las mejoras de semillas más rápido que esperar lotes de gran tamaño."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Reinvierte en expansión",
+          "description": "Usa las ganancias tempranas en expansión y mejoras prácticas antes de gastar en lujos."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Canjear códigos de inicio",
+        "Cosechar el primer ciclo completo",
+        "Desbloquear mejora de expansión",
+        "Iniciar rutina de recolección fuera de línea"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+    "buildARingFarmMutationsTierList": {
+      "title": "Lista de niveles de mutaciones de Build A Ring Farm",
+      "intro": "La prioridad de mutación en Build A Ring Farm está impulsada por el valor del multiplicador, la probabilidad de evento y la rapidez con la que puedes aplicarla a cultivos fuertes.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Rainbow",
+          "type": "Nivel S - 5x",
+          "description": "Multiplicador de gama alta de eventos Galaxy. El mejor objetivo a largo plazo para cultivos premium."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Radioactive",
+          "type": "Nivel A - 3x",
+          "description": "Opción fuerte para el juego tardío con un excelente retorno mientras persigues Rainbow."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Void",
+          "type": "Nivel B - 2.25x",
+          "description": "Mutación confiable de mitad a final de juego que escala bien en cosechas de mayor valor."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Frozen",
+          "type": "Nivel C - 1.75x",
+          "description": "Mutación puente sólida cuando no hay mejores opciones disponibles."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Wet",
+          "type": "Nivel D - 1.5x",
+          "description": "La mutación temprana más accesible y excelente para el impulso de ingresos iniciales."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+    "buildARingFarmSeedsAndCropsGuide": {
+      "title": "Guía de semillas y cultivos de Build A Ring Farm",
+      "intro": "El crecimiento de los cultivos de Build A Ring Farm depende de la calidad de las semillas, el momento de los eventos y mantener tus mejores parcelas activas para las ventanas de mutación.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Paquete de semillas tropicales",
+          "role": "Impulso inicial",
+          "description": "Canjea de 2KLIKES y abre temprano para mejorar los resultados iniciales de los cultivos."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Fertilizante fuerte",
+          "role": "Potenciador de crecimiento",
+          "description": "Aplica a los cultivos que deseas subir de nivel y mantén en tu ciclo de cultivo principal."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Ruta de la fruta del vacío",
+          "role": "Objetivo de juego tardío",
+          "description": "Úsalo como un ancla de progresión una vez que la economía de tu granja sea estable."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Meta de semillas de tomate",
+          "role": "Hito de efectivo",
+          "description": "El alto precio lo convierte en un punto de control fuerte para escalar los ingresos."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Compra semillas al ritmo de tu flujo de efectivo actual.",
+        "No uses demasiado fertilizante en cultivos de bajo valor.",
+        "Mantén los cultivos premium activos durante las ventanas de eventos.",
+        "Mejora la calidad de las semillas antes de gastar en vanidades."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+    "buildARingFarmGearShopGuide": {
+      "title": "Guía de la Tienda de Equipos de Build A Ring Farm",
+      "intro": "La Tienda de Equipos de Build A Ring Farm es más fuerte después de que el flujo de efectivo de tu granja sea estable. Los aerosoles aplican mejoras directas de mutación, y las recompensas de código proporcionan soporte de progresión gratuito en las sesiones iniciales.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "item": "Aerosol Húmedo",
+          "cost": "$10M",
+          "effect": "Aplica la mutación Húmedo",
+          "incomeMultiplier": "1.5x",
+          "bestUse": "Comienza aquí cuando necesites un impulso de mutación de bajo costo."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "item": "Aerosol Congelado",
+          "cost": "$750M",
+          "effect": "Aplica la mutación Congelado",
+          "incomeMultiplier": "1.75x",
+          "bestUse": "Úsalo después de que tu granja pueda absorber mayores gastos de mejora."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "item": "Aerosol del Vacío",
+          "cost": "$1B",
+          "effect": "Aplica la mutación del Vacío",
+          "incomeMultiplier": "2.25x",
+          "bestUse": "Opción fuerte de mitad a final para cultivos valiosos."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "item": "Aerosol Radiactivo",
+          "cost": "$10B",
+          "effect": "Aplica la mutación Radiactivo",
+          "incomeMultiplier": "3x",
+          "bestUse": "Mejor en plantas premium donde el alto costo está justificado."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "item": "Aerosol Arcoíris",
+          "cost": "$1T",
+          "effect": "Aplica la mutación Arcoíris",
+          "incomeMultiplier": "5x",
+          "bestUse": "Guárdalo para tu cultivo de mayor valor para obtener el máximo rendimiento."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
-        }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
-        {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "item": "Aerosol Ácido",
+          "cost": "$1M",
+          "effect": "Elimina una mutación de planta",
+          "incomeMultiplier": "Sin multiplicador directo",
+          "bestUse": "Elimina mutaciones débiles antes de intentar obtener mejores resultados."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "item": "Fertilizante Fuerte",
+          "cost": "Recompensa de código",
+          "effect": "Acelera la progresión de la granja después de canjear recompensas",
+          "incomeMultiplier": "Sin multiplicador de mutación directo",
+          "bestUse": "Úsalo temprano cuando necesites alcanzar tu próximo objetivo de mejora."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
+    "buildARingFarmMoneyFarmingGuide": {
+      "title": "Guía de Cultivo de Dinero en Build A Ring Farm",
+      "intro": "Build A Ring Farm recompensa la reinversión activa. Mantén los cultivos en movimiento, convierte las recompensas en impulso y prioriza las mejoras que escalan cada ciclo de cosecha.",
+      "items": [
         {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
-          ]
+          "step": 1,
+          "title": "Planta y cosecha continuamente",
+          "action": "Mantén cada parcela activa, cosecha a tiempo y vende por dinero en efectivo sin largos períodos de inactividad.",
+          "whyItWorks": "El ciclo principal se basa en ciclos repetidos de crecimiento, cosecha, venta, mejora y expansión."
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
+          "step": 2,
+          "title": "Canjea recompensas iniciales gratuitas",
+          "action": "Usa códigos activos como 100KVISITS, 2KLIKES y UPDATE1 para Time Skip, paquetes de semillas y mejoras de fertilizante.",
+          "whyItWorks": "Las recompensas gratuitas aceleran el crecimiento temprano antes de que tu granja tenga ingresos naturales fuertes."
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
+          "step": 3,
+          "title": "Reinvierte el efectivo en mejoras de escalado",
+          "action": "Compra semillas, maquinaria, aspersores, sierras y expansión en lugar de acumular moneda.",
+          "whyItWorks": "El escalado basado en mejoras aumenta la producción total y desbloquea hitos de expansión más grandes."
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
+          "step": 4,
+          "title": "Expande cuando la producción sea estable",
+          "action": "Compra más parcelas una vez que tu área de anillo actual esté generando un flujo de efectivo constante.",
+          "whyItWorks": "Más parcelas activas aumentan el volumen total de cosecha por ciclo."
         },
         {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
-          ]
+          "step": 5,
+          "title": "Usa fertilizante en los puntos de quiebre de progresión",
+          "action": "Gasta Fertilizantes Fuertes cuando puedan ayudarte a desbloquear la próxima mejora importante más rápido.",
+          "whyItWorks": "Programar los impulsos limitados alrededor de las puertas de mejora mejora la eficiencia general."
+        },
+        {
+          "step": 6,
+          "title": "Prioriza los cultivos mutados de alto valor",
+          "action": "Enfoca los impulsos de eventos y aerosoles en tus cultivos más fuertes antes de gastar esfuerzo en parcelas más débiles.",
+          "whyItWorks": "Las mutaciones multiplican el valor al máximo cuando se aplican a cultivos ya rentables."
+        },
+        {
+          "step": 7,
+          "title": "Permanece en línea durante los eventos climáticos",
+          "action": "Permanece en el juego cuando se activen los eventos de Lluvia, Ventisca, Agujero Negro, Nuclear y Galaxia.",
+          "whyItWorks": "Los sorteos de mutaciones de eventos solo ocurren mientras estás activamente en línea."
+        },
+        {
+          "step": 8,
+          "title": "Usa las ganancias fuera de línea como ingresos de apoyo",
+          "action": "Recoge las ganancias fuera de línea y luego reinviértelas inmediatamente en mejoras y planes de expansión.",
+          "whyItWorks": "Los ingresos fuera de línea ayudan, pero la sincronización activa de las mutaciones aún impulsa un crecimiento más rápido."
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
+    "buildARingFarmWeatherEventsGuide": {
+      "title": "Guía de eventos climáticos de Build A Ring Farm",
+      "intro": "Los eventos climáticos de Build A Ring Farm son una forma gratuita de obtener multiplicadores de mutación. Los eventos más raros suelen dar mayores retornos, por lo que el momento es importante.",
+      "items": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "event": "Evento de lluvia",
+          "mutation": "Húmedo",
+          "chance": "8%",
+          "incomeMultiplier": "1.5x",
+          "appearance": "Apariencia de planta similar al agua",
+          "playerTip": "El mejor evento temprano porque tiene la mayor probabilidad listada."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "event": "Evento de ventisca",
+          "mutation": "Congelado",
+          "chance": "4%",
+          "incomeMultiplier": "1.75x",
+          "appearance": "Apariencia de planta congelada",
+          "playerTip": "Un paso útil cuando cae en un cultivo fuerte."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "event": "Evento de agujero negro",
+          "mutation": "Vacío",
+          "chance": "3%",
+          "incomeMultiplier": "2.25x",
+          "appearance": "Apariencia de planta negra",
+          "playerTip": "Mutación de evento fuerte para cultivos valiosos y rutas de escalado."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "event": "Evento nuclear",
+          "mutation": "Radiactivo",
+          "chance": "2%",
+          "incomeMultiplier": "3x",
+          "appearance": "Apariencia de planta verde neón",
+          "playerTip": "Baja probabilidad pero excelente recompensa cuando se aplica a los mejores cultivos."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "event": "Evento de galaxia",
+          "mutation": "Arcoíris",
+          "chance": "1%",
+          "incomeMultiplier": "5x",
+          "appearance": "Apariencia de planta con cambio de color dinámico",
+          "playerTip": "Mutación de evento de mayor valor con las probabilidades más raras listadas."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "event": "Cultivo sin conexión",
+          "mutation": "Ninguno de los eventos",
+          "chance": "0% sin conexión",
+          "incomeMultiplier": "No hay ganancia de mutación de evento sin conexión",
+          "appearance": "No hay nueva mutación de evento",
+          "playerTip": "Las ganancias sin conexión continúan, pero las mutaciones de eventos requieren presencia en línea."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+    "buildARingFarmWikiTrelloDiscordGuide": {
+      "title": "Guía de Build A Ring Farm Wiki Trello y Discord",
+      "intro": "Utilice primero los canales oficiales de Build A Ring Farm. Los enlaces públicos de Trello y la wiki oficial no están listados, por lo que Roblox, Discord y las páginas de códigos confiables son las principales fuentes de actualización.",
+      "items": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "name": "Página oficial del juego de Roblox",
+          "status": "Disponible",
+          "url": "https://www.roblox.com/games/107646426076756/Build-A-Ring-Farm",
+          "whatPlayersFind": "Enlace para jugar, detalles del creador, descripción del juego y enlaces sociales oficiales.",
+          "bestFor": "Unirse al juego y consultar la fuente oficial principal."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "name": "Grupo de desarrolladores",
+          "status": "Disponible",
+          "url": "https://www.roblox.com/communities/33167294/Gamecreates",
+          "whatPlayersFind": "Gamecreates listado como la comunidad de desarrolladores para Build A Ring Farm.",
+          "bestFor": "Encontrar el grupo de creadores y las actualizaciones de la comunidad relacionadas."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "name": "Discord oficial",
+          "status": "Disponible",
+          "url": "https://discord.com/invite/gamecreates",
+          "whatPlayersFind": "Canales de códigos, anuncios de actualizaciones y discusiones activas de jugadores.",
+          "bestFor": "Consultar nuevos códigos y anuncios de parches rápidamente."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "name": "Trello público",
+          "status": "No listado",
+          "url": "",
+          "whatPlayersFind": "No hay un tablero público de Trello listado para Build A Ring Farm en este momento.",
+          "bestFor": "Use Discord y la página del juego de Roblox para obtener actualizaciones."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "name": "Wiki pública",
+          "status": "No listado",
+          "url": "",
+          "whatPlayersFind": "No hay una wiki pública oficial listada para Build A Ring Farm en este momento.",
+          "bestFor": "Use este sitio más las páginas oficiales para obtener información actual."
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "name": "Página de intercambio de creadores",
+          "status": "Disponible",
+          "url": "https://creatorexchange.io/roblox-game/10039338037/build-a-ring-farm",
+          "whatPlayersFind": "Creador, género, instantánea de CCU, relación de 'me gusta' y enlace a la página de Roblox.",
+          "bestFor": "Descripción general rápida de popularidad y categoría."
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
-        {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
-        },
-        {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
-        },
-        {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
-        },
-        {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
-        },
-        {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "name": "Páginas de actualización de códigos",
+          "status": "Disponible",
+          "url": "https://www.destructoid.com/build-a-ring-farm-codes/",
+          "whatPlayersFind": "Códigos activos, entradas caducadas, pasos de canje y notas de actualización.",
+          "bestFor": "Encontrar recompensas de códigos rápidamente sin escanear canales manualmente."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Build A Ring Farm",
+    "titleHighlight": "Preguntas Frecuentes",
+    "subtitle": "Preguntas comunes de los jugadores para la progresión de Build A Ring Farm",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Cómo canjeo los códigos de Build A Ring Farm?",
+        "answer": "Abre la configuración en Build A Ring Farm, pega un código en el cuadro de código y presiona Canjear después de terminar el tutorial."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cuál es la mejor estrategia inicial en Build A Ring Farm?",
+        "answer": "En Build A Ring Farm, mantén las parcelas activas, vende a menudo y reinvierte en la expansión y en rutas de mejora prácticas."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Qué mutación es la mejor en Build A Ring Farm?",
+        "answer": "La mutación Arcoíris de Build A Ring Farm tiene el multiplicador más alto, mientras que la mutación Húmeda es la opción más fácil al principio."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
-      },
-      {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
-      },
-      {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Build A Ring Farm tiene ingresos sin conexión?",
+        "answer": "Sí, Build A Ring Farm sigue generando ingresos sin conexión, y la recolección frecuente mejora la velocidad de reinversión."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para hacer crecer tu granja de anillos?",
+    "description": "Obtén las últimas actualizaciones, códigos y estrategias de cultivo de Build A Ring Farm de la comunidad y únete a Roblox ahora.",
+    "joinCommunity": "Únete al grupo Gamecreates",
+    "joinGame": "Juega Build A Ring Farm en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de Build A Ring Farm",
+    "description": "Tu centro de recursos completo para códigos, cultivos, mutaciones, mejoras y guías de ingresos sin conexión de Build A Ring Farm.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Grupo Gamecreates",
+    "twitter": "Experiencia Roblox",
+    "steamCommunity": "Jugabilidad de YouTube",
+    "steamStore": "Jugar en Roblox",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 Build A Ring Farm Wiki. No afiliado a Gamecreates o Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Códigos de Build A Ring Farm",
+      "description": "Últimos códigos de Build A Ring Farm para recompensas gratuitas, correcciones de canje y seguimiento de códigos caducados.",
+      "metaTitle": "Códigos de Build A Ring Farm - Recompensas gratuitas y pasos de canje",
+      "metaDescription": "Encuentra códigos activos de Build A Ring Farm, detalles de recompensas y pasos claros de canje para que puedas reclamar mejoras gratuitas rápidamente.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Build A Ring Farm?",
+      "whatIsDescription": "Los códigos son recompensas por tiempo limitado lanzadas durante actualizaciones e hitos. Por lo general, otorgan potenciadores, paquetes de semillas o elementos de progresión que aceleran la agricultura al principio y a mitad del juego.",
+      "why": "¿Por qué usar guías de códigos?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Reclama elementos de progresión gratuitos",
+        "step1Description": "Usa listas de códigos activos para asegurar recompensas antes de que se cierren las ventanas de vencimiento.",
+        "step2Title": "Evita errores de canje",
+        "step2Description": "Sigue el formato exacto y los consejos de tiempo de canje para reducir los problemas de códigos no válidos.",
+        "step3Title": "Rastrea la cadencia de actualización",
+        "step3Description": "El historial de códigos ayuda a predecir cuándo es probable que aparezcan nuevas recompensas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los códigos"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Guía de Build A Ring Farm",
+      "description": "Cobertura de guía de Build A Ring Farm desde principiantes hasta avanzados para rutas de progresión, bucles eficientes y consejos prácticos de juego.",
+      "metaTitle": "Guía de Build A Ring Farm - Rutas de Principiante a Avanzado",
+      "metaDescription": "Lea artículos de la guía de Build A Ring Farm que cubren la incorporación, los bucles de progresión rápida y la planificación de estrategias a largo plazo.",
+      "categoryLabel": "GUÍA DEL JUEGO",
+      "whatIs": "¿Qué es la categoría de guía?",
+      "whatIsDescription": "Los artículos de la guía explican los sistemas de juego principales y las prioridades de progresión desde su primer ciclo de cosecha hasta las rutas de optimización de alto valor.",
+      "why": "¿Por qué leer artículos de la guía?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Aprenda los sistemas principales rápidamente",
+        "step1Description": "Comprenda la siembra, la venta, las mejoras y el momento de los eventos sin prueba y error.",
+        "step2Title": "Reduzca la moneda desperdiciada",
+        "step2Description": "Utilice órdenes de actualización probadas que mejoren la producción antes de gastar en cosméticos.",
+        "step3Title": "Escale con rutinas estables",
+        "step3Description": "Construya ciclos repetibles de cosecha y reinversión para un crecimiento constante."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de la Guía"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "farming": {
+      "title": "Cultivo en Build A Ring Farm",
+      "description": "Rutas de cultivo de dinero, planificación de diseño y métodos de escalado para una mayor producción de cultivos y una reinversión más rápida.",
+      "metaTitle": "Cultivo en Build A Ring Farm - Rutas de Dinero y Consejos de Diseño",
+      "metaDescription": "Mejore el cultivo en Build A Ring Farm con estrategias de bucle de efectivo, planificación de diseño y guías de tiempo de expansión.",
+      "categoryLabel": "RUTAS DE CULTIVO",
+      "whatIs": "¿Qué es la categoría de cultivo?",
+      "whatIsDescription": "Los artículos de cultivo se centran en los bucles de ingresos, el uso de parcelas, las decisiones de diseño y el momento de la reinversión para maximizar la eficiencia de las sesiones largas.",
+      "why": "¿Por qué leer artículos de cultivo?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Aumente el efectivo por ciclo",
+        "step1Description": "Aplique patrones de ruta y tiempo que mejoren cada ciclo de cosecha.",
+        "step2Title": "Optimice el uso de la parcela",
+        "step2Description": "Utilice la guía de diseño para mantener los cultivos de alto valor en ventanas de producción activas.",
+        "step3Title": "Planifique hitos de expansión",
+        "step3Description": "Alinee las actualizaciones con los umbrales de producción en lugar de expandirse demasiado pronto."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Cultivo"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "seeds": {
+      "title": "Semillas de Build A Ring Farm",
+      "description": "Referencias de semillas y cultivos que cubren rareza, valor de progresión y opciones prácticas para diferentes etapas de crecimiento.",
+      "metaTitle": "Semillas de Build A Ring Farm - Valor de Cultivo y Selecciones de Progresión",
+      "metaDescription": "Compare las semillas y cultivos de Build A Ring Farm por rareza, valor e impacto en la progresión para tomar mejores decisiones de siembra.",
+      "categoryLabel": "SEMILLAS Y CULTIVOS",
+      "whatIs": "¿Qué es la categoría de semillas?",
+      "whatIsDescription": "Los artículos de semillas desglosan las opciones de cultivos, los niveles de rareza y la sinergia de las mejoras para que pueda decidir qué semillas merecen sus recursos limitados.",
+      "why": "¿Por qué leer guías de semillas?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Elija mejores cultivos antes",
+        "step1Description": "Priorice las semillas con un mayor rendimiento a su nivel de presupuesto actual.",
+        "step2Title": "Use fertilizante de manera eficiente",
+        "step2Description": "Reserve los artículos de refuerzo para cultivos que produzcan saltos de valor significativos.",
+        "step3Title": "Rastree las transiciones de progresión",
+        "step3Description": "Sepa cuándo pasar de los cultivos iniciales a los objetivos premium de ciclo largo."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Semillas"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "mutations": {
+      "title": "Build A Ring Farm Mutaciones",
+      "description": "Guías del sistema de mutación para reglas de apilamiento, multiplicadores y optimización basada en eventos.",
+      "metaTitle": "Build A Ring Farm Mutaciones - Reglas de Apilamiento y Mejores Multiplicadores",
+      "metaDescription": "Aprende las mecánicas de mutación de Build A Ring Farm, el comportamiento de apilamiento y las estrategias de eventos para maximizar los multiplicadores de valor de los cultivos.",
+      "categoryLabel": "SISTEMA DE MUTACIÓN",
+      "whatIs": "¿Qué es la categoría de mutaciones?",
+      "whatIsDescription": "Los artículos sobre mutaciones explican los efectos basados en eventos, las interacciones de los aerosoles y las prioridades de los multiplicadores para que puedas aplicar mejoras raras a los mejores cultivos.",
+      "why": "¿Por qué leer guías de mutaciones?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Apuntar a multiplicadores más altos",
+        "step1Description": "Enfoca las ventanas de eventos limitadas en cultivos con el mayor potencial.",
+        "step2Title": "Comprender el comportamiento de apilamiento",
+        "step2Description": "Evita combinaciones de mutaciones ineficientes que limiten tu retorno.",
+        "step3Title": "Mejorar las decisiones de eventos",
+        "step3Description": "Usa las probabilidades y las notas de tiempo para elegir las mejores sesiones para la caza de mutaciones."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Mutación"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "upgrades": {
+      "title": "Build A Ring Farm Mejoras",
+      "description": "Prioridades de mejora para aerosoles, artículos de la tienda de equipo y puntos de control de gasto de progresión.",
+      "metaTitle": "Build A Ring Farm Mejoras - Tienda de Equipo y Orden de Gasto",
+      "metaDescription": "Usa las guías de mejora de Build A Ring Farm para planificar compras de aerosoles, progresión de la tienda y un orden de gasto eficiente.",
+      "categoryLabel": "RUTAS DE MEJORA",
+      "whatIs": "¿Qué es la categoría de mejoras?",
+      "whatIsDescription": "Los artículos sobre mejoras cubren las opciones de la tienda de equipo, el valor de los aerosoles y la secuencia de compra para que cada paso de reinversión mejore la producción a largo plazo.",
+      "why": "¿Por qué leer guías de mejoras?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Gastar en el momento adecuado",
+        "step1Description": "Retrasa las mejoras costosas hasta que tu granja pueda absorber el costo.",
+        "step2Title": "Elegir compras de alto impacto",
+        "step2Description": "Compara aerosoles y artículos de utilidad por su impacto multiplicador real.",
+        "step3Title": "Mantener el impulso de la progresión",
+        "step3Description": "Usa el gasto basado en hitos para evitar estancamientos entre expansiones."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Mejora"
+    },
+    "controls": {
+      "title": "Build A Ring Farm Controles",
+      "description": "Diseños de control y guías de entrada para teclado, controlador y configuraciones específicas de la plataforma.",
+      "metaTitle": "Build A Ring Farm Controles - Diseños de Teclado y Controlador",
+      "metaDescription": "Revisa los controles de Build A Ring Farm para configuraciones de PC y controlador, incluyendo consejos de entrada específicos de la plataforma.",
+      "categoryLabel": "CONFIGURACIONES DE CONTROL",
+      "whatIs": "¿Qué es la categoría de controles?",
+      "whatIsDescription": "Los artículos sobre controles documentan el comportamiento de las asignaciones de teclas, los mapeos del controlador y consejos prácticos de configuración para sesiones de cultivo estables en cada plataforma.",
+      "why": "¿Por qué leer guías de control?",
+      "whySteps": {
+        "step1Title": "Reducir la fricción de entrada",
+        "step1Description": "Configura diseños que hagan más rápidas las acciones repetitivas de cultivo.",
+        "step2Title": "Solucionar problemas específicos de la plataforma",
+        "step2Description": "Aplica configuraciones probadas para PS4, PS5 y soporte general de controladores.",
+        "step3Title": "Mejorar la consistencia",
+        "step3Description": "Usa controles estables para mantener el tiempo durante las ventanas de mejora y eventos."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Control"
     }
   }
 }
