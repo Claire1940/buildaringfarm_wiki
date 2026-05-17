@@ -30,7 +30,6 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 	const [wikiMenuOpen, setWikiMenuOpen] = useState(false)
 	const [mobileWikiExpanded, setMobileWikiExpanded] = useState(false)
 	const [randomArticles, setRandomArticles] = useState<NavPreviewArticle[]>([])
-	const [mobileRandomArticles, setMobileRandomArticles] = useState<NavPreviewArticle[]>([])
 	const langDropdownRef = useRef<HTMLDivElement>(null)
 	const navDropdownRef = useRef<HTMLDivElement>(null)
 	const wikiDropdownRef = useRef<HTMLDivElement>(null)
@@ -81,11 +80,9 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 		if (mobileExpandedItem === contentType) {
 			setMobileExpandedItem(null)
 		} else {
-			const articles = navPreviewData[contentType] || []
-			setMobileRandomArticles(articles.slice(0, 5))
 			setMobileExpandedItem(contentType)
 		}
-	}, [mobileExpandedItem, navPreviewData])
+	}, [mobileExpandedItem])
 
 	// 从配置生成导航链接
 	const navLinks = NAVIGATION_CONFIG.map(item => ({
@@ -280,7 +277,7 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 										</button>
 										{isExpanded && (
 											<div className="ml-8 mr-4 mb-2 border-l-2 border-border pl-3">
-												{mobileRandomArticles.map((article) => (
+												{(navPreviewData[link.key] || []).slice(0, 5).map((article) => (
 													<Link
 														key={article.slug}
 														href={`/${link.key}/${article.slug}`}
@@ -291,7 +288,7 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 														<span>{extractPrimaryKeyword(article.title)}</span>
 													</Link>
 												))}
-												{mobileRandomArticles.length === 0 && (
+												{(navPreviewData[link.key] || []).slice(0, 5).length === 0 && (
 													<div className="py-2 text-sm text-muted-foreground">
 														{t('common.articlesComingSoon')}
 													</div>

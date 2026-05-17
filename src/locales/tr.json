@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "guide": "Guide",
+    "farming": "Farming",
+    "seeds": "Seeds",
+    "mutations": "Mutations",
+    "upgrades": "Upgrades",
+    "controls": "Controls"
   },
   "common": {
     "home": "Ana Sayfa",

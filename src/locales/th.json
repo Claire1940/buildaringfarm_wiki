@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "farming": "Farming",
+    "seeds": "Seeds",
+    "mutations": "Mutations",
+    "upgrades": "Upgrades",
+    "controls": "Controls"
+  }
+}
