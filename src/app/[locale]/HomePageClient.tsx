@@ -259,7 +259,6 @@ export default function HomePageClient({
             <VideoFeature
               videoId="8RRRSDMgKuE"
               title="Build A Ring Farm Gameplay"
-              posterImage="/images/hero.webp"
             />
           </div>
         </div>
