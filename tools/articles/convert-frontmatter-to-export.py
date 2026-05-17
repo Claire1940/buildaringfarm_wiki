@@ -13,18 +13,21 @@ def convert_mdx_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
+    # 去掉开头的语言标识符（如 markdown\n 或 yaml\n）
+    cleaned = re.sub(r'^(markdown|yaml|mdx)\s*\n', '', content.strip())
+
     # 检查是否已经是 export 格式
-    if content.strip().startswith('export const metadata'):
+    if cleaned.startswith('export const metadata'):
         print(f"✓ Already converted: {file_path}")
         return False
 
     # 检查是否有 YAML frontmatter
-    if not content.strip().startswith('---'):
+    if not cleaned.startswith('---'):
         print(f"✗ No frontmatter found: {file_path}")
         return False
 
     # 提取 YAML frontmatter 和内容
-    match = re.match(r'^---\s*\n(.*?)\n---\s*\n(.*)$', content, re.DOTALL)
+    match = re.match(r'^---\s*\n(.*?)\n---\s*\n(.*)$', cleaned, re.DOTALL)
     if not match:
         print(f"✗ Invalid frontmatter format: {file_path}")
         return False
@@ -94,23 +97,30 @@ def convert_mdx_file(file_path):
     return True
 
 def main():
-    """批量转换非英文 combat MDX 文件"""
+    """批量转换所有语言的全部 MDX 文件"""
+    import sys
     base_dir = Path(__file__).parent.parent.parent / 'content'
-    languages = ['es', 'pt', 'fr', 'tr', 'th', 'ja', 'ko']
 
-    print("开始转换 MDX 文件格式...\n")
+    # 从命令行参数获取语言列表，默认处理所有语言
+    if len(sys.argv) > 1:
+        languages = sys.argv[1:]
+    else:
+        # 自动检测存在的语言目录
+        languages = sorted([d.name for d in base_dir.iterdir() if d.is_dir()])
+
+    print(f"开始转换 MDX 文件格式...\n语言: {languages}\n")
 
     converted_count = 0
     total_count = 0
 
     for lang in languages:
-        combat_dir = base_dir / lang / 'combat'
-        if not combat_dir.exists():
-            print(f"⊘ Directory not found: {combat_dir}")
+        lang_dir = base_dir / lang
+        if not lang_dir.exists():
+            print(f"⊘ Directory not found: {lang_dir}")
             continue
 
         print(f"\n处理 {lang.upper()} 语言文件:")
-        for mdx_file in sorted(combat_dir.glob('*.mdx')):
+        for mdx_file in sorted(lang_dir.rglob('*.mdx')):
             total_count += 1
             if convert_mdx_file(mdx_file):
                 converted_count += 1
