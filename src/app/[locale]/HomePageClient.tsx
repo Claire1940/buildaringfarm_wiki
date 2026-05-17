@@ -125,7 +125,7 @@ export default function HomePageClient({
         sameAs: [
           "https://www.roblox.com/games/138277299533344/Build-A-Ring-Farm",
           "https://www.roblox.com/groups/35492389/Gamecreates#!/about",
-          "https://www.youtube.com/watch?v=Rh1-7n6w6vE",
+          "https://www.youtube.com/watch?v=8RRRSDMgKuE",
         ],
       },
       {
@@ -152,8 +152,8 @@ export default function HomePageClient({
           "Build A Ring Farm gameplay overview with farming, upgrades, and progression.",
         uploadDate: "2026-03-12",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/Rh1-7n6w6vE",
-        url: "https://www.youtube.com/watch?v=Rh1-7n6w6vE",
+        embedUrl: "https://www.youtube.com/embed/8RRRSDMgKuE",
+        url: "https://www.youtube.com/watch?v=8RRRSDMgKuE",
       },
     ],
   };
@@ -257,7 +257,7 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-4xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="Rh1-7n6w6vE"
+              videoId="8RRRSDMgKuE"
               title="Build A Ring Farm Gameplay"
               posterImage="/images/hero.webp"
             />
