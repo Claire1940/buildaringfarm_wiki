@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -37,14 +37,14 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
-
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+    process.env.NEXT_PUBLIC_SITE_URL || "https://buildaringfarm.wiki";
+  const pageUrl = locale === "en" ? siteUrl : `${siteUrl}/${locale}`;
+  const heroImage = `${siteUrl}/images/hero.webp`;
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: "Build A Ring Farm Wiki - Codes, Crops & Mutations",
+    description:
+      "Build A Ring Farm Wiki with active codes, crop values, mutations, upgrades, offline income tips, beginner routes, and Roblox farming guides.",
     robots: {
       index: true,
       follow: true,
@@ -59,25 +59,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: "website",
       locale: locale,
-      url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      url: pageUrl,
+      siteName: "Build A Ring Farm",
+      title: "Build A Ring Farm Wiki - Codes, Crops & Mutations",
+      description:
+        "Build A Ring Farm Wiki with active codes, crop values, mutations, upgrades, and offline income optimization.",
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImage,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Build A Ring Farm Wiki Hero Image",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      title: "Build A Ring Farm Wiki - Codes, Crops & Mutations",
+      description:
+        "Build A Ring Farm Wiki with active codes, crop values, mutations, upgrades, and offline income optimization.",
+      images: [heroImage],
     },
     icons: {
       icon: [
