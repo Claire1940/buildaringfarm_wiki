@@ -1,81 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
 export const metadata = {
-  title: "Guia para Iniciantes: Construa uma Fazenda de Runas e Obtenha Mais de 100.000 Runas no Início de Elden Ring para Qualquer Classe",
-  description: "Domine o início do jogo Elden Ring com este guia de fazenda de runas amigável para iniciantes. Aprenda a ganhar rapidamente mais de 100.000 runas para subir de nível seu personagem rapidamente, mesmo que você tenha acabado de começar sua jornada nas Terras Intermédias. Siga este guia hoje!",
-  keywords: "guia para iniciantes de fazenda de runas, fazenda de runas Elden Ring, subir de nível rápido Elden Ring, runas iniciais Elden Ring, guia para iniciantes Elden Ring",
+  title: "Guia para Iniciantes de Build a Ring Farm: Domine sua Colheita 2026",
+  description: "Aprenda como otimizar sua fazenda em Build a Ring Farm com nosso guia completo para iniciantes. Domine os níveis de sementes, mutações e estratégias de atualização para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+A+Ring+Farm+Guide",
   date: "2026-05-17",
+  author: "Equipe Wiki de Build a Ring Farm"
 }
 
-Embarcar em sua jornada pelas Terras Intermédias em Elden Ring pode ser assustador, especialmente com a curva de aprendizado íngreme e os inimigos poderosos à espreita em cada esquina. E se você pudesse contornar parte dessa dificuldade inicial e subir de nível seu personagem logo no começo? Este guia abrangente **guia para iniciantes de fazenda de runas** mostrará exatamente como acumular mais de 100.000 runas com o mínimo de esforço, preparando você para o sucesso, independentemente da sua classe escolhida.
+<Callout type="info" title="Guia Rápido">
+- **Guia para Iniciantes de Build a Ring Farm**: Concentre-se em equilibrar o **Rendimento da Serra** e a **Potência do Aspersor** para automatizar sua renda inicial.
+- **Estratégia de Sementes**: Nunca aprimore sementes comuns acima do **Nível 10**; substitua-as por culturas de raridade superior o mais rápido possível.
+- **Poder de Mutação**: Utilize os **eventos de Chuva e Galáxia** para obter multiplicadores de até **5x** para impulsos massivos de lucro.
+- **Prioridade de Expansão**: Preencha e aprimore todos os terrenos do seu anel atual antes de gastar dinheiro para desbloquear o próximo anel externo.
+- **Ganhos Offline**: Certifique-se de que suas melhores colheitas estejam plantadas antes de sair para maximizar a **renda passiva** enquanto estiver ausente.
+</Callout>
 
-Seja você um veterano experiente de Souls ou um Maculado recém-saído do tutorial, dominar uma fazenda de runas eficiente é crucial para aumentar rapidamente suas estatísticas e enfrentar áreas desafiadoras. Este método em particular não requer combate contra inimigos agressivos, tornando-o incrivelmente acessível para todos. Ao final deste guia, você terá o conhecimento para **construir uma estratégia de fazenda de runas para iniciantes** que proporciona uma enorme vantagem inicial, permitindo que você explore e conquiste com confiança o vasto mundo de Elden Ring. Vamos mergulhar e transformar sua experiência de jogo inicial!
+<Section icon={Map} title="Compreendendo o Ciclo de Jogo Principal">
 
-## Pré-requisitos para sua Fazenda de Runas no Início do Jogo
+Build a Ring Farm é um simulador sofisticado de fazenda no Roblox que integra progressão ociosa com mecânicas estilo gacha. Diferente dos jogos de fazenda tradicionais onde o trabalho manual é o foco principal, este título enfatiza a automação e o gerenciamento estratégico de recursos. Sua jornada começa com um único terreno em forma de anel, uma serraria básica e um aspersor rotativo.
 
-Antes de partirmos para acumular uma fortuna em runas, há alguns itens e locais essenciais que você precisará desbloquear. Essas etapas são simples e podem ser concluídas bem no início do jogo.
+O ciclo fundamental consiste em quatro ações primárias: **Plantio**, **Aprimoramento**, **Venda** e **Repetição**. Ao colher culturas usando sua serraria automatizada, você gera dinheiro que deve ser reinvestido em sua infraestrutura. O jogo se destaca ao introduzir uma mecânica de rolar sementes, onde cada puxada da alavanca concede uma semente de raridade aleatória. Essa imprevisibilidade dita sua trajetória de crescimento e exige adaptação constante do seu layout.
 
-*   **Torrent (Corcel Espiritual):** Seu fiel corcel espectral é absolutamente vital para esta estratégia, pois permite uma travessia rápida por grandes distâncias e uma fuga rápida do perigo. Se você ainda não desbloqueou Torrent, simplesmente visite alguns Locais de Graça até que Melina apareça e lhe ofereça o Apito de Corcel Espectral.
-*   **Fragmentos de Mapa:** Embora não seja estritamente obrigatório, ter o mapa desbloqueado para Limgrave e Caelid (especificamente Dragonbarrow) tornará a navegação significativamente mais fácil.
-*   **Pé de Frango em Conserva Dourado:** Este item consumível aumenta temporariamente a aquisição de runas em 30%. Usaremos um em um momento crítico para maximizar nossos ganhos. Você pode encontrar um logo no início, seguindo para o sul do Local de Graça Primeiro Passo, pulando penhascos e depois cavalgando para o leste ao longo da costa até o corpo de um peregrino.
-*   **Estrela da Manhã (Arma):** Este mangual é crucial para nossa fazenda de runas devido ao seu efeito de sangramento inato. Mesmo que você não atenda aos seus requisitos de força, você pode usá-lo com as duas mãos (segure Y/Triângulo e pressione Ataque Leve) para usá-lo de forma eficaz.
-    *   Para obter a Estrela da Manhã, viaje para o sudeste do Local de Graça do Lago Agheel Sul, seguindo a estrada através da Península do Choro. Atravesse a Ponte do Sacrifício (desvie dos tiros de balista ouvindo-os e rolando para a direita), e continue para o sul ao longo da estrada. Você encontrará a Estrela da Manhã em um baú na parte de trás de uma carroça quebrada em um cruzamento em T.
+| Mecânica | Função | Importância |
+| --- | --- | --- |
+| **Serraria** | Colhe automaticamente culturas maduras em seu caminho | **Alta** (Gera Renda) |
+| **Aspersor** | Rega as culturas para garantir crescimento e mutação | **Alta** (Gera Velocidade) |
+| **Alavanca de Sementes** | Concede sementes aleatórias com base nas estatísticas de Sorte | **Crítica** (Gera Nível) |
+| **Triturador de Sementes** | Troca sementes indesejadas por recompensas especiais | **Média** (Gera Eficiência) |
 
-## Navegando para o Local da Fazenda de Runas em Dragonbarrow
+<Callout type="tip" title="Visão do Editor">
+Lembre-se sempre que seu dinheiro não cresce automaticamente em sua carteira. Você deve coletar e vender ativamente sua colheita para realizar seus lucros. No início do jogo, é fácil se distrair rolando sementes e esquecer de clicar no botão 'Vender', o que impede sua progressão.
+</Callout>
 
-Com seus pré-requisitos em mãos, é hora de seguir para a região de Dragonbarrow, onde nosso alvo espera. Esta jornada envolve um pouco de viagem, mas as recompensas valem a pena.
+</Section>
 
-1.  **Do Lago Agheel Sul para a Terceira Igreja de Marika:** Viagem rápida de volta para o Local de Graça do Lago Agheel Sul. De lá, siga diretamente para o norte ao longo do caminho. Ignore a curva à esquerda para atravessar a ponte e continue reto para o norte na trilha de terra até chegar à Terceira Igreja de Marika. Ative o Local de Graça lá.
-2.  **Usando o Teletransportador:** Da Terceira Igreja de Marika, olhe para o norte em direção ao lago. Você verá uma abertura nas ruínas. Passe por essa abertura e desça até a margem do lago. Escondido em alguns arbustos perto da água está um teletransportador. Interaja com ele para ser instantaneamente transportado para o Santuário Bestial em Dragonbarrow.
-3.  **Jornada para o Dragão Adormecido:** Ao chegar ao Santuário Bestial, você estará em uma área de alto nível. Não se preocupe com os inimigos; nós os ignoraremos.
-    *   Do Santuário Bestial, olhe para o sul. Você verá uma árvore dourada à distância – este é o seu ponto de referência.
-    *   Monte Torrent e passe pelo grande inimigo perto da entrada do Santuário (ele não vai te pegar).
-    *   Siga o caminho enquanto ele curva para o sudeste. Você logo verá uma ponte enorme com um dragão igualmente enorme nela. Atravesse a ponte rapidamente; o dragão é inofensivo e não atacará se você for rápido o suficiente (muitas vezes, passar por entre suas pernas funciona melhor).
-    *   Pouco antes do fim da ponte, à sua esquerda, você encontrará um Local de Graça. Ative-o.
-    *   Continue ao longo do caminho, em direção à árvore dourada que você avistou antes. Ignore quaisquer raios; eles não causam dano aqui.
-    *   Você encontrará uma série de grandes vasos brilhantes. Manobre entre eles e depois vire à esquerda subindo uma inclinação rochosa. Isso o levará à Árvore Menor de Erdtree.
-    *   Da Árvore Menor de Erdtree, siga diretamente para o oeste ao longo da beira do penhasco. Continue seguindo este caminho, ignorando quaisquer inimigos. Eventualmente, você precisará descer uma saliência.
-    *   Continue cavalgando até chegar a uma área com um penhasco íngreme. Navegue cuidadosamente por uma pequena formação rochosa aqui. Você verá um grande dragão à sua esquerda. Contorne sua asa direita, atrás dele, e salte sobre uma pequena fenda. Você agora deve estar seguro atrás do dragão adormecido.
+<Section icon={Sparkles} title="Níveis de Sementes e Progressão de Raridade">
 
-<YouTubeEmbed videoId="I6xvvJr9yQY" title="Elden Ring - Level Up FAST with this Early Rune Farm - Best Start Guide for any Class Build!" />
+O sucesso neste **guia para iniciantes de Build a Ring Farm** depende da sua compreensão da escala de raridade. As sementes são a força vital da sua operação, e seu valor base determina o piso da sua renda. Enquanto uma Cenoura comum pode render apenas $3 por unidade, sementes de alto nível podem atingir valores na casa dos trilhões. 
 
-## Executando a Estratégia da Fazenda de Runas de Dragonbarrow
+A progressão segue uma hierarquia estrita. Iniciantes frequentemente cometem o erro de investir demais em culturas de baixo nível. Embora o aprimoramento aumente o valor por unidade, o custo de escalonamento rapidamente supera o retorno sobre o investimento para sementes Comuns e Incomuns.
 
-Agora que você está posicionado, é hora de colocar em prática nossa estratégia de **guia para iniciantes de fazenda de runas**. Este método explora a vulnerabilidade do dragão adormecido ao dano de sangramento e sua incapacidade de retaliar.
+<CardGrid cols={3}>
+  <Card title="Níveis Baixos (Comum-Raro)">
+    - **Culturas**: Cenouras, Beterrabas, Repolhos
+    - **Estratégia**: Use apenas para preencher a lacuna até as sementes Épicas.
+    - **Limite de Nível**: Pare no Nível 10.
+  </Card>
+  <Card title="Níveis Médios (Épico-Lendário)">
+    - **Culturas**: Girassol, Ameixa, Abóbora
+    - **Estratégia**: Concentre-se nestas para sua primeira expansão de Anel.
+    - **Limite de Nível**: Nível 25-30.
+  </Card>
+  <Card title="Níveis Altos (Secreto-Exótico)">
+    - **Culturas**: Prismática, Divina, Exótica
+    - **Estratégia**: Estas são suas fontes de dinheiro de longo prazo.
+    - **Limite de Nível**: Maximize os níveis imediatamente.
+  </Card>
+</CardGrid>
 
-1.  **Posicionamento:** Desmonte Torrent e entre no modo furtivo (agache-se). Certifique-se de que nenhum outro inimigo o seguiu. Caminhe para a área da "axila" entre a asa e o corpo do dragão. Este local é seguro, e o dragão não irá agredir.
-2.  **Aplicando Sangramento:** Equipe sua Estrela da Manhã e use-a com as duas mãos. Comece a atacar levemente o dragão. Seu dano direto será mínimo, mas a chave é acumular o efeito de sangramento. Cada golpe contribui para um medidor de sangramento oculto.
-3.  **O Sangramento Ativa:** Após vários ataques, o efeito de sangramento será ativado, causando uma enorme quantidade de dano baseado em porcentagem (cerca de 13.400 por ativação). Isso esgotará rapidamente a saúde do dragão. Continue atacando levemente, gerenciando sua estamina, até que a saúde do dragão esteja extremamente baixa – apenas um fio de vida restante.
-4.  **Maximizando os Ganhos de Runas:** Este é o passo mais crucial.
-    *   **NÃO mate o dragão ainda!**
-    *   Assim que a saúde do dragão estiver criticamente baixa, abra seu inventário e use um Pé de Frango em Conserva Dourado. Você verá um ícone aparecer, indicando que o bônus de runas está ativo.
-    *   Imediatamente após usar o Pé de Frango, dê os últimos golpes no dragão para ativar a última ativação de sangramento e derrotá-lo.
-    *   Com o Pé de Frango ativo, você receberá aproximadamente 96.720 runas desta única morte!
+| Nível da Semente | Exemplo de Cultura | Valor Base (Inicial) | Recomendação |
+| --- | --- | --- | --- |
+| **Comum** | Cenoura | $3 | Substitua o mais rápido possível |
+| **Rara** | Repolho | $85 | Bom ganho inicial |
+| **Épica** | Ameixa | $500+ | Base sólida para o meio do jogo |
+| **Lendária** | Girassol | $2.500+ | Foco principal para o Anel 2 |
+| **Exótica** | Nível Superior | Trilhões | Objetivo final do jogo |
 
-Esta morte de dragão é um evento único por jogada, mas proporciona um impulso incrível no início do jogo. Você pode então viajar rapidamente de volta para o Local de Graça do Primeiro Passo ou qualquer outro local desejado para gastar suas runas arduamente conquistadas. Dependendo de sua classe inicial e nível, 100.000 runas podem facilmente lhe render 20-25 níveis, aumentando significativamente o poder de seu personagem.
+<Callout type="warning" title="Gerenciamento de Resíduos">
+Não acumule sementes Comuns em seu inventário. Use o **Triturador de Sementes** diariamente para limpar o inventário de baixo valor e receber recompensas que contribuem para a eficiência geral da sua fazenda.
+</Callout>
 
-## Aprimorando Ainda Mais Seus Esforços de Farm de Runas
+</Section>
 
-Embora o dragão adormecido seja um evento único, existem maneiras de otimizar ainda mais sua aquisição de runas em Elden Ring à medida que você progride.
+<Section icon={Target} title="Atualizações Prioritárias para o Sucesso Inicial">
 
-*   **Talismã Escaravelho Dourado:** Este talismã inestimável aumenta a aquisição de runas em 20% adicionais. Quando combinado com um Pé de Frango em Conserva Dourado, você terá um aumento massivo de 50% nas runas de inimigos derrotados. O Escaravelho Dourado é obtido ao derrotar os Cavaleiros da Podridão na Caverna Abandonada em Caelid. Este é um encontro mais desafiador, mas a recompensa é permanente.
-*   **Farm de Pés de Frango em Conserva Dourados:** Como os Pés de Frango em Conserva Dourados são consumíveis, você vai querer um suprimento constante para futuras empreitadas de farm. Eles podem ser criados usando:
-    *   **Carne Curada:** Deixada por Aves (pássaros) encontradas em vários locais.
-    *   **Fruta Rowa:** Abundante em todas as Terras Intermédias.
-    *   **Pé de Frango de Quatro Dedos:** Deixado por Aves.
-    *   O Livro de Receitas do Missionário [2] é necessário para aprender a receita, que pode ser comprada de Patches.
-*   **Outros Locais de Farm de Runas:** À medida que você progride, outros farms de runas eficientes ficam disponíveis. O farm de pássaros do "Palácio Mohgwyn" é uma opção popular no final do jogo, oferecendo centenas de milhares de runas por minuto, uma vez desbloqueado. No entanto, para um impulso inicial, nada supera o dragão adormecido pela facilidade e acessibilidade precoce.
+Nas primeiras horas de jogo, seus fundos serão limitados. Espalhar seu dinheiro por todas as atualizações disponíveis é uma receita para a estagnação. Para crescer rapidamente, você deve priorizar as mecânicas que impactam diretamente sua "renda por minuto" (IPM).
 
-Lembre-se, uma construção de personagem bem planejada é tão importante quanto ter runas. Embora este **guia para iniciantes de fazenda de runas** ajude você a obter as runas, considere consultar guias de construção de personagem para alocar suas estatísticas de forma eficaz e criar um Maculado poderoso.
+<Steps>
+  <Step num="1" title="Otimização do Rendimento da Serra">
+    Priorize o **Rendimento da Serra** acima de tudo. Esta estatística determina quanta cultura sua serraria coleta a cada passagem. Se seu rendimento for baixo, você está deixando dinheiro no chão. Alcance pelo menos o Nível 8 antes de passar para outras atualizações.
+  </Step>
+  <Step num="2" title="Potência e Alcance do Aspersor">
+    Suas culturas não crescerão sem água. A **Potência do Aspersor** aumenta a velocidade de crescimento, enquanto o **Alcance** garante que, ao expandir para anéis externos, cada terreno seja coberto. Um terreno não regado é um terreno desperdiçado.
+  </Step>
+  <Step num="3" title="Investimento em Sorte de Sementes">
+    Assim que sua infraestrutura estiver estável, invista em **Sorte de Sementes**. Isso melhora o RNG das puxadas da alavanca, permitindo que você ignore a dificuldade das sementes de nível inferior e vá direto para culturas de alto valor como Melões ou Abóboras.
+  </Step>
+</Steps>
 
-## Perguntas Frequentes
+| Atualização | Benefício Principal | Nível Inicial Recomendado |
+| --- | --- | --- |
+| **Rendimento da Serra** | Mais dinheiro por colheita | Nível 10+ |
+| **Potência do Aspersor** | Ciclos de crescimento mais rápidos | Nível 7 |
+| **Alcance da Serra** | Cobre terrenos de anéis externos | Nível 5 |
+| **Sorte de Sementes** | Puxadas de sementes de raridade superior | Nível 10 |
 
-**P: Posso usar este guia para iniciantes de fazenda de runas com qualquer classe?**
-R: Sim, absolutamente! Este método depende principalmente do efeito de sangramento da Estrela da Manhã, que não exige estatísticas altas. Mesmo um personagem iniciante pode usar eficazmente uma Estrela da Manhã de duas mãos para derrotar o dragão adormecido.
+<Callout type="success" title="Estratégia Pro">
+Se você notar que seu aspersor não está alcançando os terrenos mais externos do seu anel atual, pare todos os outros gastos e concentre-se exclusivamente no **Alcance do Aspersor**. Culturas ociosas geram receita zero, tornando esses terrenos um passivo até que sejam regados.
+</Callout>
 
-**P: Quantas runas posso esperar desta fazenda no início do jogo?**
-R: Com o Pé de Frango em Conserva Dourado ativo, você receberá aproximadamente 96.720 runas ao derrotar o dragão adormecido. Esta é uma quantia substancial para o início do jogo.
+</Section>
 
-**P: E se eu acidentalmente matar o dragão antes de usar o Pé de Frango em Conserva Dourado?**
-R: Se você matar o dragão sem o Pé de Frango ativo, ainda receberá uma quantidade significativa de runas (cerca de 70.000), mas perderá o bônus extra de 30%. O dragão é uma morte única por jogada, então você não poderá repetir esta fazenda específica até o New Game+.
+<Section icon={Shield} title="O Sistema de Mutação: Multiplicadores Explicados">
 
-**P: Onde posso conseguir mais Pés de Frango em Conserva Dourados para futuras fazendas de runas?**
-R: Pés de Frango em Conserva Dourados podem ser criados depois que você adquirir o Livro de Receitas do Missionário [2] e coletar os materiais necessários: Carne Curada, Fruta Rowa e Pé de Frango de Quatro Dedos. Farmar Aves (pássaros) é uma boa maneira de obter os ingredientes únicos de pés de frango.
+Mutações são o "segredo" de Build a Ring Farm. Elas aplicam efeitos visuais e, mais importante, multiplicadores massivos de renda às suas culturas. Compreender como ativar e manter essas mutações é o que diferencia os jogadores medianos dos melhores. As mutações ocorrem aleatoriamente durante eventos climáticos específicos ou podem ser forçadas usando sprays caros da Loja de Equipamentos.
+
+| Mutação | Multiplicador | Aparência | Método de Aquisição |
+| --- | --- | --- | --- |
+| **Molhado** | **1.5x** | Semelhante à água | Evento de Chuva (8%) ou Spray Molhado |
+| **Congelado** | **1.75x** | Congelado/Gelado | Evento de Nevasca (4%) ou Spray Congelado |
+| **Vazio** | **2.25x** | Preto/Escuro | Evento de Buraco Negro (3%) ou Spray do Vazio |
+| **Radioativo** | **3x** | Verde Neon | Evento Nuclear (2%) ou Spray Radioativo |
+| **Arco-Íris** | **5x** | Cores Dinâmicas | Evento de Galáxia (1%) ou Spray Arco-Íris |
+
+<Callout type="info" title="Regras de Mutação">
+- **Sem Empilhamento**: Uma planta pode ter apenas uma mutação por vez.
+- **Persistência**: Mutações permanecem até que a planta seja substituída ou limpa com Spray Ácido.
+- **Apenas Ativo**: As mutações não serão aplicadas enquanto você estiver offline. Você deve estar no jogo durante o evento.
+</Callout>
+
+Se você tiver uma cultura de alto valor que pegue uma mutação de nível inferior como "Molhado", você pode eventualmente querer usar **Spray Ácido** ($1M) para limpá-la e tentar uma mutação "Arco-Íris" durante um evento de Galáxia. No entanto, para iniciantes, qualquer mutação é uma boa mutação.
+
+</Section>
+
+<Section icon={Trophy} title="Expansão e Metas de Longo Prazo">
+
+À medida que sua renda se estabiliza, você buscará expandir sua fazenda para fora. O jogo escala significativamente, passando de milhares para trilhões de dólares à medida que você desbloqueia novos andares e anéis.
+
+<Checklist
+  id="expansion-milestones"
+  title="Lista de Verificação de Progressão:"
+  items={[
+    "Preencha todos os 8 espaços do primeiro anel com sementes Raras+",
+    "Alcance o Nível 15 em Rendimento da Serra e Potência do Aspersor",
+    "Desbloqueie o segundo anel de terrenos",
+    "Obtenha pelo menos uma mutação Radioativa ou Arco-Íris",
+    "Desbloqueie o segundo andar para uma expansão massiva"
+  ]}
+/>
+
+Ao expandir, evite a tentação de desbloquear um novo terreno se você não puder pagar para populá-lo com uma semente decente imediatamente. Um terreno vazio em um anel externo custa mais em atualizações de alcance do que proporciona em valor se permanecer vazio ou contiver uma Cenoura Comum.
+
+<Callout type="tip" title="Estratégia Offline">
+Antes de sair do jogo pelo dia, certifique-se de que suas sementes mais valiosas estejam plantadas e regadas. O jogo calcula os ganhos offline com base no estado atual da sua fazenda, tornando esta uma excelente maneira de acordar com milhões de dólares.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor mutação para buscar em Build a Ring Farm?",
+    answer: "A mutação Arco-Íris é atualmente a melhor do jogo, oferecendo um multiplicador de renda de 5x. É a mais rara de obter, com apenas 1% de chance durante os Eventos de Galáxia."
+  },
+  {
+    question: "Devo gastar Robux em sementes no início?",
+    answer: "Não é necessário. Ao focar nas atualizações de Sorte de Sementes e utilizar este guia para iniciantes de Build a Ring Farm, você pode desbloquear sementes de alto nível como Lendárias e Secretas através da jogabilidade padrão."
+  },
+  {
+    question: "Como removo uma mutação que não quero?",
+    answer: "Você pode comprar Spray Ácido na Loja de Equipamentos por $1M. Isso removerá a mutação atual, permitindo que a planta pegue uma nova durante o próximo evento."
+  },
+  {
+    question: "As atualizações permanecem quando desbloqueio um novo andar?",
+    answer: "Sim, suas atualizações de infraestrutura principal, como Rendimento da Serra e Potência do Aspersor, fornecem a base para seu progresso em diferentes andares e anéis."
+  }
+]} />
+
+</Section>

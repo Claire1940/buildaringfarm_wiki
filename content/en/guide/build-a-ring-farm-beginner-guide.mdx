@@ -1,75 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
 export const metadata = {
-  title: "Build A Ring Farm Beginner Guide: Fast Early Progress and Stable Income",
-  description: "Start Build A Ring Farm the right way with an early-game route, first upgrades, crop priorities, and mutation tips that scale into a strong automated farm.",
-  keywords: "build a ring farm beginner guide, build a ring farm early game, best first upgrades build a ring farm, roblox farm automation guide, build a ring farm progression",
+  title: "Build a Ring Farm Beginner Guide: Master Your Harvest 2026",
+  description: "Learn how to optimize your farm in Build a Ring Farm with our comprehensive beginner guide. Master seed tiers, mutations, and upgrade strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+A+Ring+Farm+Guide",
   date: "2026-05-17",
+  author: "Build A Ring Farm Wiki Team"
 }
 
-If you are new to *Build A Ring Farm*, the biggest mistake is trying to expand too quickly before your core loop is stable. This beginner guide focuses on a simple progression path: secure consistent crop income, automate the first ring, then scale into high-value seeds and mutations.
+<Callout type="info" title="Quick Guide">
+- **Build a Ring Farm Beginner Guide**: Focus on balancing **Saw Yield** and **Sprinkler Power** to automate your early income.
+- **Seed Strategy**: Never upgrade common seeds past **Level 10**; replace them with higher rarity crops as soon as possible.
+- **Mutation Power**: Utilize **Rain and Galaxy events** to gain multipliers up to **5x** for massive profit boosts.
+- **Expansion Priority**: Fill and upgrade all plots in your current ring before spending cash to unlock the next outer ring.
+- **Offline Gains**: Ensure your best crops are planted before logging off to maximize **passive income** while away.
+</Callout>
 
-## Beginner Progression Plan
+<Section icon={Map} title="Understanding the Core Gameplay Loop">
 
-1. Start with fast-growth crops to keep cash flow constant.
-2. Upgrade sprinkler power and range before buying too many new plots.
-3. Improve saw/harvester coverage so harvest cycles stay automatic.
-4. Increase seed luck once your base income is stable.
-5. Expand rings only when the current ring runs at high uptime.
+Build a Ring Farm is a sophisticated Roblox farming simulator that integrates idle progression with gacha-style mechanics. Unlike traditional farming games where manual labor is the primary focus, this title emphasizes automation and strategic resource management. Your journey begins with a single ring-shaped plot, a basic sawmill, and a rotating sprinkler.
 
-This order avoids the common trap of owning more land than your upgrades can support.
+The fundamental loop consists of four primary actions: **Planting**, **Upgrading**, **Selling**, and **Repeating**. As you harvest crops using your automated sawmill, you generate cash that must be reinvested into your infrastructure. The game stands out by introducing a seed-rolling mechanic, where every pull of the lever grants a random seed rarity. This unpredictability dictates your growth trajectory and requires constant adaptation of your layout.
 
-## Best First Upgrades
+| Mechanic | Function | Importance |
+| --- | --- | --- |
+| **Sawmill** | Automatically harvests mature crops in its path | **High** (Drives Income) |
+| **Sprinkler** | Waters crops to ensure growth and mutation | **High** (Drives Speed) |
+| **Seed Lever** | Grants random seeds based on Luck stats | **Critical** (Drives Tier) |
+| **Seed Crusher** | Exchanges unwanted seeds for special rewards | **Medium** (Drives Efficiency) |
 
-The first upgrades that matter most:
+<Callout type="tip" title="Editor's Insight">
+Always remember that your cash does not grow automatically in your wallet. You must actively collect and sell your harvest to realize your profits. In the early game, it is easy to get distracted by rolling seeds and forget to click the 'Sell' button, which halts your progression.
+</Callout>
 
-- Sprinkler power: speeds growth and improves cycle frequency.
-- Sprinkler range: reduces dead zones where crops idle.
-- Harvester range: prevents mature crops from waiting too long.
-- Seed luck: increases chances for better-value crops.
+</Section>
 
-A strong early setup is not about rare seeds yet. It is about making every tile produce money continuously.
+<Section icon={Sparkles} title="Seed Tiers and Rarity Progression">
 
-## Crop and Mutation Priorities
+Success in this **build a ring farm beginner guide** hinges on your understanding of the rarity ladder. Seeds are the lifeblood of your operation, and their base value determines your income floor. While a common Carrot might yield only $3 per unit, top-tier seeds can reach values in the trillions. 
 
-In early game, prioritize reliability over rarity. Mid game, shift into better-value seeds as soon as your automation keeps up. Late game, mutations become the true multiplier.
+The progression follows a strict hierarchy. Beginners often make the mistake of over-investing in low-tier crops. While upgrading increases the per-unit value, the scaling cost quickly outpaces the return on investment for Common and Uncommon seeds.
 
-- Early: fast, low-risk crops for steady reinvestment.
-- Mid: higher-value seeds with good cycle speed.
-- Late: exotic/secret crops plus strong mutations.
+<CardGrid cols={3}>
+  <Card title="Low Tiers (Common-Rare)">
+    - **Crops**: Carrots, Beetroot, Cabbage
+    - **Strategy**: Use only to bridge the gap to Epic seeds.
+    - **Level Cap**: Stop at Level 10.
+  </Card>
+  <Card title="Mid Tiers (Epic-Legendary)">
+    - **Crops**: Sunflower, Plum, Pumpkin
+    - **Strategy**: Focus on these for your first Ring expansion.
+    - **Level Cap**: Level 25-30.
+  </Card>
+  <Card title="High Tiers (Secret-Exotic)">
+    - **Crops**: Prismatic, Divine, Exotic
+    - **Strategy**: These are your long-term money makers.
+    - **Level Cap**: Maximize levels immediately.
+  </Card>
+</CardGrid>
 
-When event boosts are active, save time-skip tools for your best mutated crops to maximize payouts.
+| Seed Tier | Example Crop | Base Value (Starting) | Recommendation |
+| --- | --- | --- | --- |
+| **Common** | Carrot | $3 | Replace ASAP |
+| **Rare** | Cabbage | $85 | Good early earner |
+| **Epic** | Plum | $500+ | Solid mid-game base |
+| **Legendary** | Sunflower | $2,500+ | Primary focus for Ring 2 |
+| **Exotic** | Top-Tier | Trillions | End-game goal |
 
-## Layout Rules for Better Efficiency
+<Callout type="warning" title="Waste Management">
+Do not hoard Common seeds in your inventory. Use the **Seed Crusher** daily to clear out low-value inventory and receive rewards that contribute to your overall farm efficiency.
+</Callout>
 
-Use a ring layout that minimizes travel and keeps sprinklers overlapping where possible.
+</Section>
 
-- Keep harvest paths short and predictable.
-- Avoid scattered pockets of unwatered tiles.
-- Expand in controlled blocks, then re-balance coverage.
+<Section icon={Target} title="Priority Upgrades for Early Success">
 
-If your income drops after expansion, roll back and strengthen upgrades first.
+In the first few hours of gameplay, your funds will be limited. Spreading your cash across every available upgrade is a recipe for stagnation. To grow fast, you must prioritize the mechanics that directly impact your "income per minute" (IPM).
 
-## Common Beginner Mistakes
+<Steps>
+  <Step num="1" title="Saw Yield Optimization">
+    Prioritize **Saw Yield** above all else. This stat determines how much crop your sawmill collects during each pass. If your yield is low, you are leaving money on the ground. Reach at least Level 8 before moving to other upgrades.
+  </Step>
+  <Step num="2" title="Sprinkler Power and Range">
+    Your crops will not grow without water. **Sprinkler Power** increases growth speed, while **Range** ensures that as you expand to outer rings, every plot is covered. An unwatered plot is a wasted plot.
+  </Step>
+  <Step num="3" title="Seed Luck Investment">
+    Once your infrastructure is stable, invest in **Seed Luck**. This improves the RNG of the lever pulls, allowing you to bypass the grind of lower-tier seeds and jump straight into high-value crops like Melons or Pumpkins.
+  </Step>
+</Steps>
 
-- Expanding rings too early.
-- Ignoring sprinkler upgrades.
-- Spending on low-impact upgrades before automation.
-- Using boosts before crop quality is high enough.
+| Upgrade | Primary Benefit | Recommended Early Level |
+| --- | --- | --- |
+| **Saw Yield** | More cash per harvest | Level 10+ |
+| **Sprinkler Power** | Faster growth cycles | Level 7 |
+| **Saw Range** | Covers outer ring plots | Level 5 |
+| **Seed Luck** | Higher rarity seed pulls | Level 10 |
 
-Fixing these four issues usually doubles progress speed for new players.
+<Callout type="success" title="Pro Strategy">
+If you notice your sprinkler isn't reaching the outermost plots of your current ring, stop all other spending and focus exclusively on **Sprinkler Range**. Idle crops generate zero revenue, making those plots a liability until they are watered.
+</Callout>
 
-## Related Guides
+</Section>
 
-- [Build A Ring Farm Codes](/codes/build-a-ring-farm-codes)
-- [Build A Ring Farm Upgrades](/upgrades/build-a-ring-farm-upgrades)
-- [Build A Ring Farm Mutation Guide](/mutations/build-a-ring-farm-mutation-guide)
+<Section icon={Shield} title="The Mutation System: Multipliers Explained">
 
-## FAQ
+Mutations are the "secret sauce" of Build a Ring Farm. They apply visual effects and, more importantly, massive income multipliers to your crops. Understanding how to trigger and maintain these mutations is what separates average players from the top earners. Mutations occur randomly during specific weather events or can be forced using expensive sprays from the Gear Shop.
 
-**Q: What should I upgrade first in Build A Ring Farm?**  
-A: Sprinkler power/range and harvester range first, then seed luck.
+| Mutation | Multiplier | Appearance | Acquisition Method |
+| --- | --- | --- | --- |
+| **Wet** | **1.5x** | Water-like | Rain Event (8%) or Wet Spray |
+| **Frozen** | **1.75x** | Frozen/Icy | Blizzard Event (4%) or Frozen Spray |
+| **Void** | **2.25x** | Black/Dark | Black Hole Event (3%) or Void Spray |
+| **Radioactive** | **3x** | Green Neon | Nuclear Event (2%) or Radioactive Spray |
+| **Rainbow** | **5x** | Dynamic Colors | Galaxy Event (1%) or Rainbow Spray |
 
-**Q: When should I expand to the next ring?**  
-A: Expand only after your current ring has strong automation uptime and stable profit.
+<Callout type="info" title="Mutation Rules">
+- **No Stacking**: A plant can only hold one mutation at a time.
+- **Persistence**: Mutations stay until the plant is replaced or cleared with Acid Spray.
+- **Active Only**: Mutations will not apply while you are offline. You must be in-game during the event.
+</Callout>
 
-**Q: Are rare seeds worth it early?**  
-A: Usually no. Build a reliable loop first, then pivot to rare seeds once upgrades can support them.
+If you have a high-value crop that catches a lower-tier mutation like "Wet," you may eventually want to use **Acid Spray** ($1M) to clear it and try for a "Rainbow" mutation during a Galaxy event. However, for beginners, any mutation is a good mutation.
+
+</Section>
+
+<Section icon={Trophy} title="Expansion and Long-Term Goals">
+
+As your income stabilizes, you will look toward expanding your farm outward. The game scales significantly, moving from thousands to trillions of dollars as you unlock new floors and rings.
+
+<Checklist
+  id="expansion-milestones"
+  title="Progression Checklist:"
+  items={[
+    "Fill all 8 slots of the first ring with Rare+ seeds",
+    "Reach Level 15 in Saw Yield and Sprinkler Power",
+    "Unlock the second ring of plots",
+    "Obtain at least one Radioactive or Rainbow mutation",
+    "Unlock the second floor for massive scale-up"
+  ]}
+/>
+
+When expanding, avoid the temptation to unlock a new plot if you cannot afford to populate it with a decent seed immediately. An empty plot in an outer ring costs more in range upgrades than it provides in value if it remains empty or holds a Common Carrot.
+
+<Callout type="tip" title="Offline Strategy">
+Before you log off for the day, ensure your most valuable seeds are planted and watered. The game calculates offline earnings based on your current farm state, making this an excellent way to wake up to millions of dollars.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best mutation to aim for in Build a Ring Farm?",
+    answer: "The Rainbow mutation is currently the best in the game, offering a 5x income multiplier. It is rarest to obtain, with only a 1% chance during Galaxy Events."
+  },
+  {
+    question: "Should I spend Robux on seeds early on?",
+    answer: "It is not necessary. By focusing on Seed Luck upgrades and utilizing this build a ring farm beginner guide, you can unlock high-tier seeds like Legendary and Secret through standard gameplay."
+  },
+  {
+    question: "How do I remove a mutation I don't want?",
+    answer: "You can purchase Acid Spray from the Gear Shop for $1M. This will clear the current mutation, allowing the plant to catch a new one during the next event."
+  },
+  {
+    question: "Do upgrades stay when I unlock a new floor?",
+    answer: "Yes, your core infrastructure upgrades like Saw Yield and Sprinkler Power provide the foundation for your progress across different floors and rings."
+  }
+]} />
+
+</Section>

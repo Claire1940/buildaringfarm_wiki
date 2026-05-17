@@ -1,108 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
 export const metadata = {
-  title: "Domina las Tierras Intermedias: Cómo Construir una Granja de Elden Ring para Sprays y Aromáticos Potentes",
-  description: "Descubre la guía definitiva para construir una granja de Elden Ring para potentes sprays aromáticos. Aprende dónde encontrar recetas, ingredientes esenciales y cómo estos consumibles pueden mejorar drásticamente tu juego a partir de mayo de 2026.",
-  keywords: "construir granja de sprays Elden Ring, aromáticos Elden Ring, frascos de perfume Elden Ring, guía de consumibles Elden Ring, granja de Aromático de Tarro de Hierro",
+  title: "Aerosoles de Build A Ring Farm: Guía Definitiva de Mutaciones y Multiplicadores 2026",
+  description: "Descubre todos los aerosoles de Build A Ring Farm, cómo obtener mutaciones y maximizar tus ingresos con multiplicadores en esta guía completa de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Build+A+Ring+Farm+Sprays",
   date: "2026-05-17",
+  author: "Equipo Wiki de Build A Ring Farm"
 }
 
-¡Bienvenido, Sinluz! ¿Alguna vez has sentido que te falta una ventaja crucial en las Tierras Intermedias, un arma secreta que podría cambiar el rumbo incluso de los encuentros más brutales? Muchos jugadores pasan por alto una poderosa categoría de consumibles: los sprays aromáticos. Esta guía te enseñará cómo **construir una granja de Elden Ring para sprays potentes** y otros aromáticos, proporcionándote un suministro constante de mejoras que cambian el juego. Al final de este artículo, comprenderás por qué estos elementos a menudo ignorados son esenciales para cualquier construcción, desde la exploración casual hasta el PvP intenso.
+<Callout type="info" title="Guía Rápida">
+- Los **aerosoles de Build A Ring Farm** son cruciales para aplicar mutaciones específicas a tus plantas.
+- Cada aerosol se dirige a una mutación única, ofreciendo diferentes **multiplicadores de ingresos**.
+- El **Aerosol Arcoíris** proporciona el multiplicador más alto (5x), pero es el más caro y raro.
+- Las mutaciones son una estrategia clave para la **generación rápida de dinero** con una inversión mínima.
+- Usa el **Aerosol Ácido** para eliminar mutaciones no deseadas de tus plantas.
+</Callout>
 
-Los aromáticos, almacenados en Frascos de Perfume, ofrecen una variedad de potentes mejoras temporales que pueden mejorar significativamente tu destreza en combate, tu capacidad de supervivencia e incluso tu utilidad. A diferencia de muchos objetos de un solo uso, estos sprays se pueden reponer en cualquier Lugar de Gracia, lo que hace que una granja fiable sea crucial. Profundicemos en cómo puedes **construir eficazmente una granja de Elden Ring para sprays potentes** y aprovechar todo su potencial.
+<Section icon={Sparkles} title="Entendiendo los Aerosoles y Mutaciones de Build A Ring Farm">
+En *Build A Ring Farm*, maximizar tus ingresos va más allá de simplemente plantar semillas de alta rareza. Para acelerar verdaderamente tus ganancias, necesitas adentrarte en el mundo de las mutaciones de plantas. Estas mutaciones, aplicadas a través de aerosoles especializados, ofrecen importantes multiplicadores de dinero, transformando tu humilde granja en una máquina de hacer dinero. Los aerosoles son una forma directa y confiable de inducir estos poderosos efectos, ofreciendo un método controlado en comparación con depender de eventos aleatorios dentro del juego.
 
-### Entendiendo los Sprays Aromáticos de Elden Ring
+Cada mutación no solo aumenta los ingresos de tu planta, sino que también le otorga un efecto visual único, haciendo que tu granja luzca tan impresionante como sus ganancias. Entender qué aerosol usar y cuándo puede impactar drásticamente la progresión de tu juego.
 
-Los aromáticos son consumibles especiales en Elden Ring que proporcionan mejoras temporales, daño o efectos defensivos. Se fabrican utilizando Libros de Cocina de Perfumista y se almacenan en Frascos de Perfume, que son objetos clave. Cada Frasco de Perfume que adquieres aumenta el número total de aromáticos que puedes llevar a la vez. No son solo pequeñas mejoras; algunos aromáticos pueden alterar fundamentalmente la forma en que abordas las difíciles peleas contra jefes o los enfrentamientos PvP, convirtiéndolos en la piedra angular de cualquier construcción optimizada.
+<Callout type="tip" title="Maximiza las Ganancias al Principio del Juego">
+Concéntrate en adquirir el **Aerosol Húmedo** desde el principio. Aunque su multiplicador es menor, es significativamente más barato que otros aerosoles, lo que te permite empezar a generar ingresos de plantas mutadas mucho más rápido. Este impulso inicial puede financiar tu adquisición de aerosoles más potentes más adelante.
+</Callout>
 
-Aquí tienes un desglose de los cuatro sprays aromáticos principales y sus increíbles efectos:
+### Aerosoles de Mutación y Sus Efectos
 
-*   **Aromático de Chispa:** Este es principalmente un aromático que inflige daño. Aunque quizás sea el menos impactante de los cuatro, proporciona un daño de área de efecto rápido y moderado, lo que lo convierte en una opción decente para acabar con enemigos con poca salud o añadir una ráfaga rápida en PvP. Su rápido tiempo de activación es su principal ventaja.
-*   **Aromático Vigorizante:** Este aromático increíblemente potente actúa como un efecto de "Físico Prodigioso" reutilizable, otorgando inmunidad temporal al siguiente golpe entrante. Imagina recibir cero daño del devastador ataque de un jefe: el Aromático Vigorizante lo convierte en una realidad repetible. También proporciona un bono al poder de ataque de los aliados, lo que lo hace valioso para el modo cooperativo o al usar cenizas de espíritu.
-*   **Aromático de Sangre Hirviendo:** Para los que infligen daño físico, el Aromático de Sangre Hirviendo es un cambio de juego. Proporciona un impulso masivo al poder de ataque físico (alrededor del 50% según las pruebas de los jugadores) durante un minuto completo. Aunque no se acumula con otras mejoras de ataque importantes como el Voto Dorado, ofrece un aumento de daño constante y significativo sin requerir ninguna inversión en Fe, lo que permite construcciones de personajes más enfocadas.
-*   **Aromático de Tarro de Hierro:** Este aromático te convierte en un tanque. Otorga un gran aumento en la reducción de daño y el equilibrio, haciéndote increíblemente resistente a los tambaleos y al daño entrante. La desventaja es el aumento del daño por rayo recibido y la incapacidad de correr o rodar (¡aunque el Paso de Sabueso sigue funcionando!). Esto es particularmente devastador en PvP, permitiéndote intercambiar golpes y dominar a los oponentes, o en PvE, permitiéndote canalizar hechizos poderosos sin interrupción.
+Aquí tienes un desglose de los diversos aerosoles disponibles, sus mutaciones asociadas, los multiplicadores de ingresos que proporcionan y sus costos en la Tienda de Equipo.
 
-<YouTubeEmbed videoId="JzGCVrrw9mA" title="The 4 Secret OP Items That BREAK the Game - All Aromatics Explained & Location Guide - Elden Ring!" />
+| Mutación | Multiplicador y Apariencia | Cómo Obtener (Aerosol) | Costo del Aerosol |
+| :------- | :---------------------- | :----------------- | :--------- |
+| **Húmeda** | Aumenta los ingresos en **1.5x**. Apariencia similar al agua. | Aerosol Húmedo | $10M |
+| **Congelada** | Aumenta los ingresos en **1.75x**. Apariencia congelada. | Aerosol Congelado | $750M |
+| **Vacío** | Aumenta los ingresos en **2.25x**. Apariencia negra. | Aerosol Vacío | $1B |
+| **Radiactiva** | Aumenta los ingresos en **3x**. Apariencia verde neón. | Aerosol Radiactivo | $10B |
+| **Arcoíris** | Aumenta los ingresos en **5x**. Apariencia de cambio de color dinámico. | Aerosol Arcoíris | $1T |
 
-*Este video de Legacy Gaming ofrece una excelente visión general de los cuatro aromáticos, explicando sus usos y ubicaciones en detalle, lo cual es invaluable para cualquiera que busque optimizar su granja de Elden Ring para sprays potentes.*
+</Section>
 
-### Adquiriendo Frascos de Perfume y Libros de Cocina
+<Section icon={Trophy} title="Adquisición y Aplicación de Aerosoles para Mutaciones">
+Adquirir estos potentes aerosoles es sencillo, pero el costo puede ser sustancial, especialmente para las opciones de nivel superior. Todos los aerosoles de mutación se pueden comprar directamente en la Tienda de Equipo dentro del juego. Una vez adquiridos, aplicarlos a tus plantas es un proceso simple.
 
-Antes de que puedas **construir eficazmente una granja de Elden Ring para sprays potentes**, necesitas las recetas y los recipientes para guardarlos. Los Frascos de Perfume son objetos clave que aumentan tu capacidad aromática total. Cada uno que encuentres se suma a tu total, y se reponen en un Lugar de Gracia. Las recetas en sí provienen de Libros de Cocina de Perfumista específicos.
+<Steps>
+  <Step num="1" title="Acceder a la Tienda de Equipo">
+    Navega a la **Tienda de Equipo** dentro de la interfaz del juego *Build A Ring Farm*. La encontrarás claramente marcada en el menú principal o en un centro central.
+  </Step>
+  <Step num="2" title="Comprar el Aerosol Deseado">
+    Explora los aerosoles disponibles. Selecciona el aerosol de mutación que deseas adquirir (por ejemplo, **Aerosol Húmedo**, **Aerosol Radiactivo**, **Aerosol Arcoíris**) y confirma tu compra usando tu moneda del juego. Ten en cuenta los costos, ya que pueden variar de millones a billones de dólares.
+  </Step>
+  <Step num="3" title="Seleccionar una Planta">
+    Una vez que tengas el aerosol en tu inventario, regresa a tu granja. Haz clic o toca la planta específica que deseas mutar.
+  </Step>
+  <Step num="4" title="Aplicar el Aerosol">
+    Desde tu inventario o un menú de acceso rápido, selecciona el aerosol comprado y úsalo en la planta elegida. La mutación se aplicará instantáneamente y verás el efecto visual y el multiplicador de ingresos surtir efecto.
+  </Step>
+</Steps>
 
-Aquí te mostramos dónde encontrar los libros de cocina esenciales:
+<Callout type="warning" title="Alerta de Mutación sin Conexión">
+Las mutaciones **no se aplicarán** a tus plantas si estás desconectado durante los eventos del juego. Para aprovechar las ocasionales oportunidades de mutación basadas en eventos, debes estar jugando activamente. Sin embargo, los aerosoles ofrecen una forma garantizada de aplicar mutaciones independientemente de los eventos.
+</Callout>
 
-1.  **Libro de Cocina del Perfumista [1]:** Este libro de cocina desbloquea el Aromático Vigorizante y el Aromático de Chispa.
-    *   **Ubicación:** Dirígete a las Ruinas del Perfumista en la Meseta Altus. Cerca del Lugar de Gracia, encontrarás una mesa. Debajo de ella hay un Frasco de Perfume, y justo al lado, un cofre que contiene este libro de cocina. Mientras estés allí, ¡toma el talismán de abajo para aumentar la potencia aromática!
-2.  **Libro de Cocina del Perfumista [2]:** Este desbloquea el poderoso Aromático de Sangre Hirviendo.
-    *   **Ubicación:** Viaja al Castillo Sombrío. Desde el Lugar de Gracia principal, entra en la biblioteca. Busca una escalera y súbela para llegar al tejado, donde encontrarás el libro de cocina.
-3.  **Libro de Cocina del Perfumista [3]:** Este libro de cocina te otorga la receta del Aromático de Tarro de Hierro.
-    *   **Ubicación:** Este se encuentra en la Tumba Lateral de Auriza, ubicada justo a las afueras de Leyndell, la Capital Real. Esta mazmorra es conocida por sus cofres teletransportadores. Para obtener el libro de cocina, toma uno de los primeros cofres teletransportadores que encuentres a medida que avanzas normalmente. Te enviará a una habitación oscura y turbia donde el libro de cocina descansa sobre un cadáver en el centro. No necesitas derrotar al jefe de la mazmorra para obtener este objeto.
+</Section>
 
-Con los tres libros de cocina en la mano, tendrás acceso para fabricar los cuatro sprays aromáticos. Ahora, hablemos del aspecto de la recolección.
+<Section icon={Swords} title="Uso Estratégico de Aerosoles y Gestión de Mutaciones">
+Elegir en qué aerosol invertir depende en gran medida de tu progresión actual en el juego y de los fondos disponibles. Si bien el Aerosol Arcoíris ofrece el multiplicador más alto, su inmenso costo ($1T) lo convierte en una inversión para el final del juego. Los jugadores principiantes e intermedios deben centrarse en opciones más asequibles como los aerosoles Húmedo o Congelado para empezar a aumentar sus ingresos.
 
-### Ingredientes Esenciales y Ubicaciones de Recolección
+### Guía de Estrategia de Mutación
 
-Para mantener un suministro constante de aromáticos, necesitarás recolectar materiales de fabricación específicos. Si bien los requisitos exactos varían para cada aromático, se necesitarán algunos ingredientes comunes para **construir una granja de Elden Ring para sprays potentes**.
+| Etapa | Aerosoles Recomendados | Razón | Consideración de Costo |
+| :---- | :----------------- | :-------- | :----------------- |
+| **Juego Temprano** | **Aerosol Húmedo** | Punto de entrada más barato, proporciona un sólido aumento de 1.5x para iniciar los ingresos. | $10M (Muy asequible) |
+| **Juego Medio** | **Aerosol Congelado**, **Aerosol Vacío** | Aumento significativo del multiplicador sin arruinarse, buenos escalones. | $750M - $1B (Inversión moderada) |
+| **Juego Tardío** | **Aerosol Radiactivo**, **Aerosol Arcoíris** | Los multiplicadores más altos para la generación de ingresos definitiva. | $10B - $1T (Inversión fuerte) |
 
-**Ingredientes Aromáticos Comunes:**
+### Eliminando Mutaciones no Deseadas
 
-*   **Flor de Altus:** Se encuentra con frecuencia en toda la Meseta Altus.
-*   **Musgo de Cueva en Crecimiento:** Común en varias cuevas y catacumbas.
-*   **Brote de Miranda:** A menudo se encuentra en áreas con plantas grandes y venenosas, como la Península del Llanto o Caelid.
-*   **Luciérnaga de Piedra Brillante:** Se encuentra cerca de cuerpos de agua o en cuevas.
-*   **Enjambre Soporífero:** Lo sueltan enemigos específicos con forma de insecto.
-*   **Hoja Arteria:** Un material más raro, a menudo se encuentra en ubicaciones específicas o como botín de enemigos particulares.
+A veces, es posible que desees cambiar la mutación de una planta o eliminarla por completo. Tal vez hayas adquirido un aerosol más potente, o quieras liberar una planta para una estrategia diferente. Aquí es donde el **Aerosol Ácido** resulta útil.
 
-**Estrategias de Recolección para una Granja de Sprays de Elden Ring:**
+<CardGrid cols={2}>
+  <Card title="Propósito del Aerosol Ácido">
+    El **Aerosol Ácido** está diseñado específicamente para eliminar cualquier mutación existente de tus plantas. Esto te permite reiniciar una planta y aplicar una nueva mutación con un aerosol diferente.
+  </Card>
+  <Card title="Costo del Aerosol Ácido">
+    Puedes comprar el **Aerosol Ácido** en la Tienda de Equipo por **$1M**. Esto lo convierte en una herramienta asequible para gestionar eficazmente las mutaciones de tus plantas.
+  </Card>
+</CardGrid>
 
-La clave para una eficiente **granja de Elden Ring para sprays potentes** es identificar áreas ricas en los materiales requeridos y establecer una rutina.
+<Checklist
+  id="mutation-management"
+  title="Gestión Efectiva de Mutaciones:"
+  items={[
+    "Prioriza los aerosoles más baratos para aumentos rápidos de ingresos.",
+    "Ahorra para aerosoles de nivel superior a medida que tu granja crece.",
+    "Usa el Aerosol Ácido para eliminar mutaciones antes de aplicar otras nuevas y más fuertes.",
+    "Asegúrate de tener suficientes fondos tanto para el aerosol de mutación como para el Aerosol Ácido si planeas un cambio.",
+    "Considera el atractivo estético de las mutaciones para el aspecto general de tu granja."
+  ]}
+/>
 
-1.  **Bucle de la Meseta Altus:** Esta área es excelente para la Flor de Altus y otros materiales de fabricación generales. Monta a tu corcel, Torrentera, y recorre campos abiertos y ruinas.
-2.  **Península del Llanto y Áreas Venenosas de Caelid:** Para el Brote de Miranda, concéntrate en áreas con flora grande y tóxica. Estas zonas a menudo tienen altas concentraciones de estas plantas.
-3.  **Expediciones a Cuevas y Catacumbas:** El Musgo de Cueva en Crecimiento es abundante en la mayoría de las mazmorras subterráneas. Anota mentalmente qué cuevas has limpiado y revísitalas para una cosecha rápida.
-4.  **Botines Específicos de Enemigos:** Para objetos más raros como el Enjambre Soporífero, identifica a los enemigos que los sueltan (a menudo insectos grandes o perfumistas específicos) y farmea sus ubicaciones de aparición.
-5.  **Utiliza los Lugares de Gracia:** Recuerda que la mayoría de los materiales de fabricación reaparecen cuando descansas en un Lugar de Gracia. Planifica tus rutas de farmeo para pasar por varios Lugares de Gracia y maximizar tu rendimiento.
+</Section>
 
-Para obtener una lista completa de todas las ubicaciones de materiales de fabricación, considera consultar la [Wiki oficial de Elden Ring](https://eldenring.wiki.fextralife.com/Crafting+Materials). Esto te proporcionará mapas detallados e información sobre los botines de los enemigos para optimizar tus esfuerzos de farmeo.
+<Section icon={Shield} title="Maximizando los Ingresos con Aerosoles de Mutación">
+El objetivo principal de usar aerosoles de mutación es aumentar drásticamente los ingresos generados por tus plantas. Al aplicar estratégicamente las mutaciones correctas, puedes crear una operación agrícola increíblemente eficiente. Recuerda que las plantas solo pueden tener una mutación a la vez. Si aplicas un nuevo aerosol de mutación a una planta ya mutada, este anulará el anterior.
 
-### Optimizando el Uso de Tus Aromáticos
+<Callout type="success" title="Mejor Mutación para Ingresos">
+Actualmente, la **Mutación Arcoíris** aplicada mediante el **Aerosol Arcoíris** es la mejor en *Build A Ring Farm*, ofreciendo un increíble **multiplicador de ingresos de 5x**. Aunque es el aerosol más caro con $1T, el retorno de la inversión para una planta de alto valor es inigualable.
+</Callout>
 
-Una vez que hayas logrado **construir una granja de Elden Ring para sprays potentes**, saber cuándo y cómo usarlos es primordial.
+Considera el valor de tus plantas al decidir qué mutación aplicar. A menudo es más beneficioso aplicar mutaciones de alto multiplicador como Radiactiva o Arcoíris a tus plantas más valiosas y de mayor nivel, ya que producirán el mayor aumento de ganancias. Para plantas menos valiosas, una mutación Húmeda o Congelada aún puede proporcionar un impulso sustancial.
 
-*   **Peleas de Jefes:**
-    *   **Aromático Vigorizante:** Perfecto para mitigar el ataque más letal de un jefe. Úsalo justo antes de una notoria habilidad de alto daño.
-    *   **Aromático de Sangre Hirviendo:** Actívalo al comienzo de una fase de daño o cuando tengas una apertura clara para desatar una ráfaga de ataques físicos.
-    *   **Aromático de Tarro de Hierro:** Ideal para aguantar la fase agresiva de un jefe, permitiéndote realizar potentes ataques cargados o hechizos sin interrupción.
-*   **Encuentros PvP:**
-    *   **Aromático de Tarro de Hierro:** Puede ser increíblemente disruptivo, permitiéndote ignorar ataques ligeros y comerciar favorablemente. Combínalo con el Paso de Sabueso para una movilidad sorprendente.
-    *   **Aromático de Sangre Hirviendo:** Proporciona una ráfaga rápida de daño para construcciones agresivas que buscan terminar las peleas rápidamente.
-    *   **Aromático de Chispa:** Una ráfaga de daño rápida e inesperada que puede tomar a los oponentes por sorpresa o acabar con ellos.
-*   **Exploración:**
-    *   Aunque menos crítico, el Aromático Vigorizante puede salvarte de emboscadas inesperadas o peligros ambientales.
-    *   Considera usar un Aromático de Chispa para despejar grupos de enemigos más débiles de manera eficiente.
+### Mutaciones Basadas en Eventos vs. Aerosoles
 
-Recuerda que los aromáticos duran un tiempo decente (a menudo un minuto), por lo que cronometrar su uso es clave para maximizar su efecto sin desperdiciarlos. Experimenta con diferentes combinaciones para encontrar lo que mejor se adapte a tu estilo de juego y a los desafíos actuales.
+Si bien los aerosoles ofrecen un método garantizado para aplicar mutaciones, vale la pena señalar que las mutaciones también pueden ocurrir durante eventos específicos del juego. Estos eventos brindan la oportunidad de que tus plantas muten espontáneamente.
 
-### Consejos Avanzados para tu Granja de Sprays
+| Mutación | Probabilidad de Evento |
+| :------- | :----------- |
+| **Húmeda** | 8% de probabilidad durante Evento de Lluvia |
+| **Congelada** | 4% de probabilidad durante Evento de Ventisca |
+| **Vacío** | 3% de probabilidad durante Evento de Agujero Negro |
+| **Radiactiva** | 2% de probabilidad durante Evento Nuclear |
+| **Arcoíris** | 1% de probabilidad durante Evento Galaxia |
 
-Más allá de simplemente recolectar materiales, hay formas de mejorar tu farmeo y uso de aromáticos:
+Si bien las mutaciones basadas en eventos son gratuitas, su baja probabilidad hace que los aerosoles sean una opción más confiable y controlable para los jugadores que buscan una optimización constante de los ingresos. Los aerosoles te permiten apuntar a plantas y mutaciones específicas sin esperar a que ocurran eventos raros en el juego.
 
-*   **Talismanes:** Como se mencionó, existe un talismán que aumenta la potencia de los aromáticos. Búscalo para que tus sprays sean aún más efectivos.
-*   **Eficiencia de Fabricación:** Siempre fabrica aromáticos en un Lugar de Gracia para reponer tu stock. Vigila tu recuento de materiales y prioriza el farmeo de ingredientes específicos cuando te estés quedando sin ellos.
-*   **Planificación de Rutas:** Desarrolla rutas de farmeo específicas que pasen por múltiples nodos de recursos para los materiales que más necesitas. Practica estas rutas hasta que se conviertan en algo natural.
-*   **Stock de Comerciantes:** Algunos comerciantes venden ocasionalmente materiales de fabricación. Si bien no es un método de farmeo principal, puede ser una forma conveniente de reponer tus reservas si te faltan algunos objetos.
+</Section>
 
-Al integrar estas estrategias, no solo **construirás una granja de Elden Ring para sprays potentes**, sino que también crearás un proceso optimizado que te mantendrá bien abastecido y listo para cualquier desafío que las Tierras Intermedias te presenten. No subestimes estos potentes consumibles; pueden ser la diferencia entre la victoria y la derrota.
+<Section icon={Target} title="Preguntas Frecuentes sobre los Aerosoles de Build A Ring Farm">
 
-### Preguntas Frecuentes
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor mutación para obtener en Build A Ring Farm?",
+    answer: "La **Mutación Arcoíris** es actualmente la mejor, ofreciendo un multiplicador de ingresos de 5x. Sin embargo, requiere el **Aerosol Arcoíris** más caro ($1T) para adquirirla."
+  },
+  {
+    question: "¿Pueden mis plantas tener varias mutaciones a la vez?",
+    answer: "No, las plantas solo pueden tener una mutación a la vez. Aplicar un nuevo aerosol de mutación reemplazará cualquier mutación existente en esa planta."
+  },
+  {
+    question: "¿Cómo elimino una mutación de mi planta?",
+    answer: "Puedes eliminar cualquier mutación de tus plantas comprando y usando el **Aerosol Ácido** de la Tienda de Equipo, que cuesta $1M."
+  },
+  {
+    question: "¿Son los aerosoles de Build A Ring Farm una mejor manera de obtener mutaciones que esperar a los eventos?",
+    answer: "Sí, los aerosoles ofrecen una forma garantizada de aplicar mutaciones específicas, lo que permite un control más estratégico sobre los ingresos de tu granja. Las mutaciones basadas en eventos tienen una baja probabilidad de ocurrir."
+  }
+]} />
 
-**P: ¿Por qué debería molestarme en construir una granja de Elden Ring para sprays potentes?**
-R: Los sprays aromáticos ofrecen importantes mejoras temporales al daño, la defensa y la utilidad, lo que facilita mucho los encuentros desafiantes y proporciona una ventaja crucial en el PvP. A menudo se pasan por alto, pero pueden mejorar drásticamente tu juego.
-
-**P: ¿Dónde puedo encontrar las recetas para todos los sprays aromáticos?**
-R: Las recetas se encuentran en tres Libros de Cocina del Perfumista. El Libro de Cocina [1] está en las Ruinas del Perfumista (Meseta Altus), el Libro de Cocina [2] está en el Castillo Sombrío y el Libro de Cocina [3] está en la Tumba Lateral de Auriza.
-
-**P: ¿Cuáles son los ingredientes más importantes para farmear para los aromáticos?**
-R: Los ingredientes clave incluyen Flor de Altus, Musgo de Cueva en Crecimiento, Brote de Miranda, Luciérnaga de Piedra Brillante, Enjambre Soporífero y Hoja Arteria. Su rareza varía, así que prioriza las áreas ricas en los materiales específicos que necesitas para tus sprays preferidos.
-
-**P: ¿Los sprays aromáticos se acumulan con otras mejoras en Elden Ring?**
-R: Generalmente, las principales mejoras aromáticas (como el aumento de daño del Aromático de Sangre Hirviendo) no se acumulan con mejoras potentes similares (por ejemplo, el Voto Dorado). Sin embargo, algunos efectos pueden complementarse entre sí, por lo que se recomienda la experimentación.
+</Section>

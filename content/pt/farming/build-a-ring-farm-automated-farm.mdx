@@ -1,82 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
 export const metadata = {
-  title: "Dominando a Fazenda em Anel Automatizada: Construa seu Império de Trilhões no Roblox Farming Simulator",
-  description: "Descubra o guia definitivo para construir uma fazenda em anel automatizada no Roblox Farming Simulator, maximizando suas colheitas e renda para trilhões até 17-05-2026. Comece a cultivar de forma mais inteligente hoje!",
-  keywords: "construir uma fazenda em anel automatizada, automação de fazenda Roblox, layout de fazenda eficiente, maximizar lucros da fazenda, guia de simulador de fazenda",
+  title: "Construa uma fazenda automatizada de anéis: Guia de Eficiência Máxima 2026",
+  description: "Domine a arte da automação em Build A Ring Farm. Aprenda como configurar uma fazenda automatizada, otimizar scripts e maximizar seus rendimentos de recursos em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+A+Ring+Farm+Automation",
   date: "2026-05-17",
+  author: "Equipe Wiki de Build A Ring Farm"
 }
 
-Bem-vindos, aspirantes a magnatas e jogadores de dedo verde! Se você já sonhou em transformar um pequeno pedaço de terra digital em um império vasto e autossustentável, então você está no lugar certo. Este guia o levará pelos passos essenciais para **construir uma fazenda em anel automatizada** no seu simulador de fazenda favorito do Roblox, garantindo que você obtenha lucros máximos com o mínimo de esforço. Esqueça os cliques intermináveis e o trabalho manual; é hora de automatizar seu caminho rumo aos bilhões, ou até trilhões, em moeda virtual.
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Use uma configuração de **fazenda automatizada de anéis** para contornar a moagem manual e maximizar a produção de anéis.
+- **Recursos de Automação**: Scripts modernos em 2026 incluem recursos de Auto-Roll, Auto-Plant, Auto-Sell e Speed Farm.
+- **Suporte a Executores**: Compatível com executores de alto desempenho como Delta, Codex e Synapse Z para compilações de 2026.
+- **Aumento de Eficiência**: Sistemas automatizados podem aumentar as taxas de aquisição de recursos em até 500% em comparação com o jogo manual.
+- **Gerenciamento de Riscos**: Sempre use scripts atualizados de fontes confiáveis para garantir a segurança e estabilidade da conta.
+</Callout>
 
-Construir uma fazenda automatizada não se trata apenas de plantar sementes; trata-se de layout estratégico, melhorias inteligentes e compreensão da dança intrincada entre crescimento, colheita e lucro. O objetivo é criar um ciclo contínuo onde suas plantações crescem, são colhidas e convertidas em dinheiro, financiando novas expansões e automações ainda mais avançadas. Este guia visa equipá-lo com o conhecimento necessário para criar um sistema automatizado eficiente e altamente lucrativo que deixará seus competidores para trás.
+<Section icon={Map} title="Introdução à Automação de Fazendas de Anéis">
 
-## A Base: Iniciando sua Fazenda em Anel Automatizada
+O cenário dos simuladores de fazenda do Roblox mudou dramaticamente em 2026, e em nenhum lugar isso é mais evidente do que na busca para **construir uma fazenda automatizada de anéis**. À medida que a complexidade dos níveis de anéis aumenta, o clique e o plantio manuais se tornaram estratégias obsoletas para jogadores competitivos. A automação não é mais apenas um luxo; é um requisito fundamental para aqueles que visam alcançar a tabela de classificação.
 
-Toda grande fazenda automatizada começa com uma base sólida. Inicialmente, você estará plantando e colhendo manualmente, mas não deixe que isso o desanime. O início do jogo é crucial para acumular capital suficiente para investir em automação. Concentre-se em subir o nível de suas plantações básicas, como cenouras e beterrabas, pois até mesmo estas podem proporcionar uma renda decente quando melhoradas. A chave é o plantio e a venda consistentes para acumular seus fundos iniciais.
+Ao alavancar scripts Lua avançados, os jogadores podem transformar uma rotina tediosa em uma linha de produção de alta velocidade. Este guia explora a mecânica da auto-fazenda, as ferramentas necessárias para uma configuração estável e as estratégias que definem os jogadores de alto nível na comunidade Build A Ring Farm.
 
-Conforme você progride, priorize o desbloqueio de lotes adicionais para expandir sua área de cultivo. Quanto mais espaço você tiver, mais sementes poderá cultivar simultaneamente, acelerando seu potencial de ganho. Lembre-se, cada dólar ganho contribui para o seu futuro automatizado. Não tenha medo de experimentar sementes diferentes; embora algumas sementes comuns possam parecer menos lucrativas, subi-las de nível pode aumentar significativamente seu valor por unidade, tornando-as fontes de renda viáveis nos estágios iniciais.
+**Destaques do Vídeo:**
+- **Automação Completa**: Demonstração dos ciclos de Auto-Plant e Auto-Sell.
+- **Interface de Script**: Visão geral da GUI do script Pastebin de 2026.
+- **Speed Farming**: Como utilizar o botão Speed Farm para progressão rápida.
+- **Guia de Configuração**: Visual passo a passo sobre a execução do script no jogo.
 
-## Melhorias Essenciais para a Automação
+<YouTubeEmbed videoId="2lmoYz2zdms" title="[🧑‍🌾UPDATE] Roblox Build a Ring Farm Script Auto Farm, Auto Roll & Auto Plant Pastebin 2026" />
 
-Assim que tiver um fluxo de renda estável, é hora de investir nos componentes principais de sua fazenda em anel automatizada. As duas melhorias mais críticas são a **potência do aspersor** e o **rendimento da serra**.
+<Callout type="tip" title="Dica de Otimização">
+Ao executar sua fazenda automatizada pela primeira vez, comece com uma configuração de velocidade mais baixa para garantir que sua conexão com a internet possa lidar com os pacotes de dados rápidos enviados ao servidor.
+</Callout>
 
-*   **Potência do Aspersor:** Isso determina a rapidez com que suas plantas são regadas e, consequentemente, a velocidade com que crescem. Investir em uma maior potência de aspersão significa ciclos de crescimento mais rápidos e colheitas mais frequentes. Uma experiência comum entre os jogadores sugere que uma potência de aspersão mais alta garante que as plantações estejam prontas para a colheita no momento em que a serra passa, evitando atrasos em seu ciclo automatizado.
-*   **Rendimento e Alcance da Serra:** A serra é o seu colhedor automatizado. Melhorar seu rendimento significa que ela coleta mais plantações por passagem, impulsionando diretamente sua renda. Igualmente importante é o alcance da serra. À medida que você expande sua fazenda para fora em "anéis", aumentar o alcance da serra garante que ela possa alcançar e colher todas as suas plantações de forma eficiente. O mesmo princípio se aplica ao alcance do aspersor, garantindo que todos os lotes sejam adequadamente regados.
+| Método de Cultivo | Esforço Manual | Rendimento Horário | Consistência |
+| :--- | :--- | :--- | :--- |
+| **Clique Manual** | Muito Alto | Baixo | Ruim |
+| **Auto-Clicker Básico** | Baixo | Médio | Médio |
+| **Automação Completa de Script** | Nenhum | Extremamente Alto | Excelente |
+| **Estratégia Híbrida** | Moderado | Alto | Bom |
 
-De acordo com relatos da comunidade, equilibrar essas melhorias é crucial. Embora um alto rendimento da serra seja tentador, ele é ineficiente se a potência do seu aspersor não conseguir acompanhar, deixando sua serra colhendo plantas subdesenvolvidas. Busque um caminho de melhoria harmonioso, onde as capacidades de crescimento e colheita escalem juntas.
+</Section>
 
-## Expandindo sua Fazenda em Anel: Desbloqueando Novos Níveis
+<Section icon={Zap} title="Recursos Principais das Fazendas Automatizadas Modernas">
 
-À medida que seus lotes iniciais se tornam lucrativos, você notará oportunidades para expandir sua fazenda em anéis concêntricos. Esses anéis externos são essenciais para escalar sua operação para proporções verdadeiramente massivas. No entanto, eles vêm com um preço alto. É um investimento significativo, mas que rende dividendos, pois permite plantar sementes cada vez mais raras e valiosas.
+Para conseguir **construir uma fazenda automatizada de anéis**, você deve entender os módulos individuais que compõem um script de ponta. Em 2026, o meta evoluiu para incluir ferramentas multifacetadas que lidam com tudo, desde o gerenciamento de inventário até a manipulação de RNG.
 
-Desbloquear novos lotes nesses anéis externos também oferece espaço para sementes melhores. Mover-se de sementes comuns para incomuns, raras, épicas, lendárias, secretas, prismáticas, divinas e exóticas é o caminho para a riqueza exponencial. Cada nível oferece valores base significativamente mais altos e maior potencial para melhorias, levando a ganhos de milhões, bilhões e, eventualmente, trilhões. Não tenha medo de vender suas plantações de nível inferior para financiar a compra dessas sementes de alto valor e desbloquear novos lotes. Este processo iterativo de vender, melhorar e expandir está no cerne da construção de uma **fazenda em anel automatizada** de sucesso.
+<CardGrid cols={3}>
+  <Card title="Auto Roll">
+    - **Otimização de RNG**
+    - Rola automaticamente por anéis de alto nível
+    - Filtra itens comuns para economizar espaço
+  </Card>
+  <Card title="Auto Plant">
+    - **Crescimento Contínuo**
+    - Planta sementes no milissegundo em que um terreno está livre
+    - Suporta sincronização de múltiplos terrenos
+  </Card>
+  <Card title="Auto Sell">
+    - **Gerenciamento de Economia**
+    - Converte anéis em moeda instantaneamente
+    - Limites de preço personalizáveis
+  </Card>
+</CardGrid>
 
-<YouTubeEmbed videoId="8RRRSDMgKuE" title="Minha fazenda em anel automatizada no Roblox sai do controle" />
+A sinergia entre esses recursos cria um ciclo onde o jogador ganha moeda, melhora sua fazenda e rola por anéis melhores sem nenhuma entrada manual. O recurso "Speed Farm", especificamente mencionado em atualizações recentes de 2026, permite que o motor ignore certos atrasos de animação, aumentando ainda mais a eficiência da **fazenda automatizada de anéis**.
 
-*Neste vídeo, você pode ver um jogador demonstrando como sua fazenda em anel automatizada no Roblox cresceu para uma escala incrível, mostrando o potencial para lucros massivos e expansão dentro do jogo.*
+<Callout type="warning" title="Conscientização Anti-Cheat">
+Embora a automação seja eficiente, a velocidade excessiva pode acionar detectores de lag no servidor. Sempre use scripts que incluam um "Modo Seguro" ou "Atraso Humanizado" para minimizar os riscos de detecção.
+</Callout>
 
-## Maximizando o Lucro: Sorte de Semente, Mutações e Fertilizantes
+| Recurso | Benefício Principal | Configuração Recomendada |
+| :--- | :--- | :--- |
+| **Auto-Roll** | Obtém Anéis Míticos | Filtro: Raro+ |
+| **Auto-Plant** | Maximiza o Uso do Terreno | Atraso: 0.1s |
+| **Auto-Sell** | Previne Inventário Cheio | Limite: 80% Cheio |
+| **Speed Farm** | Reduz o Tempo de Crescimento | Ativar: Ligado |
 
-Além das melhorias básicas, vários fatores podem aumentar significativamente a lucratividade da sua fazenda:
+</Section>
 
-*   **Sorte de Semente:** Investir em melhorias de sorte de semente aumenta suas chances de obter sementes mais raras e valiosas. Isso é crucial para adquirir sementes épicas, lendárias e até secretas que formam a espinha dorsal de uma fazenda automatizada de alto rendimento. Relatos da comunidade sugerem que uma maior sorte de semente pode reduzir drasticamente o tempo e o dinheiro gastos tentando adquirir plantações de alto nível.
-*   **Mutações:** Fique de olho em eventos especiais ou itens da loja que oferecem mutações, como a mutação "molhada" ou a "mutação arco-íris". Estas podem aumentar dramaticamente o valor de suas plantações existentes. Por exemplo, uma mutação "molhada" pode transformar uma plantação comum em uma que vale significativamente mais por unidade, proporcionando um enorme aumento na renda.
-*   **Fertilizantes:** Fertilizantes, como o "fertilizante normal" (2x crescimento) ou "fertilizante forte" (4x crescimento), aceleram a taxa de crescimento de suas plantas. Isso significa ciclos de colheita mais rápidos e mais dinheiro no seu bolso. O super fertilizante (6x crescimento) é ainda mais potente, embora geralmente mais caro. Aplicar estes estrategicamente em suas plantações mais valiosas pode render retornos massivos.
+<Section icon={Target} title="Como Configurar Sua Fazenda Automatizada">
 
-O objetivo é criar uma sinergia onde sementes de alto nível, combinadas com mutações e fertilizantes que aumentam o crescimento, sejam rapidamente cultivadas e colhidas pelo seu sistema totalmente automatizado. É aqui que o verdadeiro poder de uma fazenda em anel automatizada brilha, permitindo que você gere riqueza em uma escala sem precedentes.
+Configurar uma **fazenda automatizada de anéis** requer um executor confiável e um script limpo. Com base nos dados mais recentes de maio de 2026, vários executores foram verificados quanto à estabilidade.
 
-## Gestão Estratégica de Lotes e Progressão de Nível
+<Steps>
+  <Step num="1" title="Escolha um Executor Verificado">
+    Selecione um executor compatível. Em 2026, opções como **Delta**, **Codex** e **Seliware** são preferidas por sua compatibilidade com dispositivos móveis e PC. Certifique-se de que seu executor esteja atualizado para a versão mais recente para evitar falhas.
+  </Step>
+  <Step num="2" title="Adquira o Código do Script">
+    Localize um Pastebin ou hub de scripts confiável. Procure por scripts "Build A Ring Farm Speed Farm" que incluam os recursos "Auto Roll" e "Auto Plant". Evite links que pareçam suspeitos ou que exijam downloads desnecessários.
+  </Step>
+  <Step num="3" title="Execute e Configure">
+    Inicie o Roblox e entre em Build A Ring Farm. Abra seu executor, cole o script e clique em 'Executar'. Uma GUI deve aparecer em sua tela. Comece ativando "Auto Plant" e "Auto Sell" para estabelecer sua economia base.
+  </Step>
+  <Step num="4" title="Ajuste as Configurações">
+    Ajuste as configurações de "Auto Roll" para mirar em raridades específicas de anéis. Se você está cultivando para obter moeda, defina o "Auto Sell" para alta frequência. Se você está caçando anéis raros, certifique-se de que seu inventário tenha espaço suficiente.
+  </Step>
+</Steps>
 
-À medida que sua fazenda cresce, gerenciar seus lotes torna-se um esforço estratégico. Não se trata apenas de preencher todos os espaços; trata-se de otimizar para o lucro. Aqui está uma estratégia de progressão geral:
+<Callout type="success" title="Sucesso na Execução">
+Se a GUI aparecer, mas os recursos não estiverem funcionando, tente entrar em um servidor diferente. Alguns servidores mais antigos podem ter ambientes de script diferentes que causam problemas de compatibilidade.
+</Callout>
 
-1.  **Início do Jogo (Comuns e Incomuns):** Concentre-se em maximizar seus lotes iniciais com sementes comuns e incomuns. Suba o nível delas até por volta do nível 10 para obter um retorno decente.
-2.  **Meio do Jogo (Raras e Épicas):** Assim que puder pagar, comece a substituir suas sementes de nível inferior por raras e épicas. Estas oferecem um salto significativo no valor. Considere subi-las até o nível 15 para retornos ideais antes que se tornem excessivamente caras para melhorar mais.
-3.  **Final do Jogo (Lendárias e Secretas):** É aqui que o dinheiro real é feito. Substitua sistematicamente todas as suas plantações raras e épicas por sementes lendárias e secretas. Nesta fase, você estará lidando com milhões e até bilhões por unidade. Maximize o alcance da serra e do aspersor para cobrir seus anéis em expansão.
-4.  **End Game (Prismáticas, Divinas, Exóticas):** O objetivo final é preencher toda a sua fazenda em anel automatizada com as sementes de nível mais alto. Estas são incrivelmente caras, mas oferecem retornos astronômicos, potencialmente atingindo trilhões por colheita. Neste ponto, mesmo pequenas melhorias na potência do aspersor ou no rendimento da serra custarão bilhões, mas a renda gerada por essas plantações de elite cobrirá isso facilmente.
+| Executor | Plataforma | Classificação de Estabilidade | Principal Força |
+| :--- | :--- | :--- | :--- |
+| **Delta** | Celular/PC | ★★★★★ | Execução rápida |
+| **Codex** | Celular | ★★★★☆ | UI amigável |
+| **Synapse Z** | PC | ★★★★★ | Depuração avançada |
+| **Volt** | PC | ★★★★☆ | Leve |
+| **Seliware** | Celular/PC | ★★★★☆ | Alta compatibilidade |
 
-Sempre priorize o desbloqueio de novos lotes e a aquisição de sementes de nível superior quando possível. O crescimento exponencial no valor faz com que esses investimentos valham a pena, mesmo que pareçam caros de imediato. Sua estratégia de **construir uma fazenda em anel automatizada** deve sempre olhar para o próximo nível de lucratividade.
+</Section>
 
-## Estratégias Avançadas para Trilhões
+<Section icon={Shield} title="Maximizando Eficiência e Segurança">
 
-Alcançar trilhões exige uma otimização meticulosa e a disposição de investir pesadamente. Aqui estão algumas dicas avançadas:
+Depois de conseguir **construir uma fazenda automatizada de anéis**, o próximo passo é a otimização. A eficiência é medida pela métrica "Anéis Por Minuto" (RPM). Para maximizar isso, você deve equilibrar suas atualizações de fazenda com as configurações do seu script.
 
-*   **Crescimento Offline:** Muitos simuladores de fazenda permitem que as plantações cresçam offline. Utilize este recurso planejando suas sessões em torno de ciclos de crescimento mais longos para suas plantações mais valiosas.
-*   **Saltos no Tempo (Time Skips):** Se disponível, o uso estratégico de saltos no tempo pode acelerar significativamente seu progresso, especialmente ao esperar que plantações de alto valor amadureçam ou que grandes somas de dinheiro se acumulem para melhorias importantes.
-*   **Compras com Robux (Opcional):** Para aqueles que desejam agilizar seu progresso, alguns jogos oferecem compras com Robux para multiplicadores de dinheiro, sementes especiais ou fertilizantes poderosos. Embora não sejam necessários, eles podem fornecer um impulso substancial. Por exemplo, um multiplicador de dinheiro de 2x ou 4x pode aumentar drasticamente seus ganhos.
-*   **Coletor e Limites Diários:** Alguns jogos apresentam um coletor de sementes onde você deposita sementes para ganhar outras ainda mais raras, muitas vezes com limites diários. Utilize isso regularmente para adquirir sementes de alto nível. Não negligencie essas oportunidades de renda passiva e melhoria.
-*   **Loja de Equipamentos e Sprays Especiais:** Fique de olho na loja de equipamentos para itens exclusivos como "sprays molhados" ou "sprays arco-íris" que podem aplicar instantaneamente mutações benéficas às suas plantações, aumentando seu valor. Estes costumam ser caros, mas podem proporcionar um rápido surto de lucros.
+Por exemplo, usar "Speed Farm" sem atualizar sua capacidade de terreno levará a retornos decrescentes, pois o script passará mais tempo esperando os terrenos serem liberados do que realmente plantando. Inversamente, ter uma fazenda enorme sem "Auto Sell" resultará em uma linha de produção paralisada assim que seu inventário atingir seu limite.
 
-Ao implementar essas estratégias, sua fazenda em anel automatizada não apenas gerará uma riqueza imensa, mas também se tornará um testemunho de sua proeza estratégica no gênero de simulador de fazenda. Para mais dicas gerais de fazendas no Roblox, você pode encontrar informações valiosas no [Fórum de Desenvolvedores do Roblox](https://devforum.roblox.com/) oficial.
+<Checklist
+  id="automation-safety"
+  title="Lista de Verificação Diária de Automação:"
+  items={[
+    "Verificar atualizações de script no Pastebin",
+    "Monitorar o inventário para 'Anéis Fantasmas' (itens que não vendem)",
+    "Verificar o status de injeção do executor",
+    "Ajustar as configurações de velocidade com base no ping do servidor",
+    "Limpar o cache a cada 4 horas para estabilidade a longo prazo"
+  ]}
+/>
 
-## FAQ
+<Callout type="info" title="Estratégia Pro">
+Jogadores de alto nível frequentemente usam "Auto Buy" em conjunto com sua fazenda. Isso permite que o script compre automaticamente sementes melhores e expansões de terreno assim que os fundos estiverem disponíveis, criando um loop de crescimento verdadeiramente infinito.
+</Callout>
 
-**P: Como começo a construir uma fazenda em anel automatizada de forma eficaz?**
-R: Comece cultivando consistentemente plantações básicas para acumular fundos iniciais. Priorize o desbloqueio de mais lotes e o investimento em melhorias iniciais de potência do aspersor e rendimento da serra. Substitua gradualmente as sementes de nível inferior por outras mais valiosas à medida que sua renda aumentar.
+| Prioridade de Atualização | Nível de Custo | Impacto na Automação |
+| :--- | :--- | :--- |
+| **Expansão de Terreno** | Alto | Aumenta o RPM total |
+| **Qualidade da Semente** | Médio | Aumenta o valor por anel |
+| **Tamanho do Inventário** | Baixo | Reduz a frequência de Venda |
+| **Aumentos de Velocidade** | Variável | Multiplica a produção geral |
 
-**P: Quais são as melhorias mais importantes para uma fazenda automatizada?**
-R: A potência do aspersor (para um crescimento mais rápido) e o rendimento/alcance da serra (para uma colheita eficiente) são os mais críticos. A sorte de semente e os multiplicadores de dinheiro também desempenham um papel significativo na maximização de seus lucros.
+</Section>
 
-**P: Como posso adquirir sementes raras e exóticas para minha fazenda em anel automatizada?**
-R: Você pode adquiri-las tentando a sorte em sementes com alta sorte de semente, comprando-as na loja do jogo ou usando coletores de sementes que trocam sementes comuns por outras mais raras. Algumas também podem estar disponíveis através de eventos especiais ou pacotes de Robux.
+<Section icon={Swords} title="Solução de Problemas Avançada e Perguntas Frequentes">
 
-**P: Vale a pena melhorar as sementes além do nível 10 ou 15?**
-R: Para sementes de nível inferior, melhorar além do nível 10 ou 15 pode se tornar desproporcionalmente caro. No entanto, para sementes lendárias, secretas e especialmente prismáticas, divinas e exóticas, subir para o nível 20 ou até 30 pode aumentar exponencialmente seu valor, tornando-se um investimento altamente lucrativo.
+Mesmo com uma **fazenda automatizada de anéis** perfeita, você pode encontrar obstáculos técnicos. A maioria dos problemas em 2026 decorre de incompatibilidades de versão de script para jogo ou limitações do executor. Se o seu "Auto Plant" parar de funcionar, geralmente é devido a uma mudança no sistema de ID de terreno do jogo, o que requer uma atualização de script do desenvolvedor.
+
+<FAQ items={[
+  {
+    question: "Por que meu recurso Auto-Sell não está funcionando?",
+    answer: "Isso geralmente é causado por lag no inventário. Tente definir um 'Atraso de Venda' nas configurações do seu script ou vender manualmente um item para redefinir a detecção do script do estado do seu inventário."
+  },
+  {
+    question: "É seguro usar o Speed Farm em 2026?",
+    answer: "O Speed Farm é geralmente seguro se mantido em níveis moderados. Evite usar recursos de 'Crescimento Instantâneo' em servidores públicos, pois estes são mais propensos a serem sinalizados por sistemas de moderação automatizados."
+  },
+  {
+    question: "Qual executor é o melhor para Build A Ring Farm?",
+    answer: "Delta e Synapse Z atualmente oferecem a melhor estabilidade para o meta de scripts de 2026. Eles lidam com os loops Lua de alta velocidade necessários para o cultivo eficiente de anéis sem travar o cliente Roblox."
+  },
+  {
+    question: "Como obtenho os scripts mais recentes do Pastebin?",
+    answer: "Siga desenvolvedores de scripts renomados em plataformas como Rscripts ou hubs especializados do Discord. Sempre verifique o 'Tempo de Publicação' para garantir que o script seja compatível com a atualização mais recente do jogo."
+  }
+]} />
+
+<Callout type="warning" title="Nota Final">
+A automação é uma ferramenta para aprimorar sua experiência. Embora acelere significativamente o progresso, certifique-se de ainda estar engajado com a comunidade e aproveitando o aspecto de coleta do jogo.
+</Callout>
+
+</Section>

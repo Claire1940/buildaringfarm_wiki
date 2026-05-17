@@ -1,81 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
 export const metadata = {
-  title: "Guía para principiantes: Cómo construir una granja de runas para obtener más de 100,000 runas al principio de Elden Ring con cualquier clase",
-  description: "Domina el principio de Elden Ring con esta guía de granja de runas para principiantes. Aprende a ganar rápidamente más de 100,000 runas para subir de nivel a tu personaje, incluso si acabas de comenzar tu viaje en las Tierras Intermedias. ¡Sigue esta guía hoy mismo!",
-  keywords: "guía para principiantes de granja de runas, granja de runas Elden Ring, subir de nivel rápido Elden Ring, runas de juego temprano Elden Ring, guía para principiantes Elden Ring",
+  title: "Guía para Principiantes de Build a Ring Farm: Domina tu Cosecha 2026",
+  description: "Aprende a optimizar tu granja en Build a Ring Farm con nuestra guía completa para principiantes. Domina los niveles de semillas, mutaciones y estrategias de mejora para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+A+Ring+Farm+Guide",
   date: "2026-05-17",
+  author: "Equipo Wiki de Build A Ring Farm"
 }
 
-Embarcarse en tu viaje por las Tierras Intermedias en Elden Ring puede ser desalentador, especialmente con la curva de aprendizaje pronunciada y los poderosos enemigos acechando en cada esquina. ¿Qué pasaría si pudieras evitar parte de esa lucha inicial y subir de nivel a tu personaje desde el principio? Esta completa **guía para principiantes sobre cómo construir una granja de runas** te mostrará exactamente cómo acumular más de 100,000 runas con un esfuerzo mínimo, preparándote para el éxito independientemente de la clase que elijas.
+<Callout type="info" title="Guía Rápida">
+- **Guía para Principiantes de Build a Ring Farm**: Concéntrate en equilibrar el **Rendimiento de la Sierra** y la **Potencia del Aspersor** para automatizar tus ingresos iniciales.
+- **Estrategia de Semillas**: Nunca mejores las semillas comunes más allá del **Nivel 10**; reemplázalas con cultivos de mayor rareza tan pronto como sea posible.
+- **Poder de Mutación**: Utiliza los **eventos de Lluvia y Galaxia** para obtener multiplicadores de hasta **5x** para enormes aumentos de ganancias.
+- **Prioridad de Expansión**: Llena y mejora todas las parcelas en tu anillo actual antes de gastar dinero para desbloquear el siguiente anillo exterior.
+- **Ganancias sin Conexión**: Asegúrate de que tus mejores cultivos estén plantados antes de desconectarte para maximizar los **ingresos pasivos** mientras estás ausente.
+</Callout>
 
-Ya seas un veterano de Souls o un Sinluz recién salido del tutorial, dominar una granja de runas eficiente es crucial para mejorar rápidamente tus estadísticas y abordar áreas desafiantes. Este método en particular no requiere combate contra enemigos agresivos, lo que lo hace increíblemente accesible para todos. Al final de esta guía, tendrás el conocimiento para **construir una granja de runas** con una estrategia que te proporcionará una ventaja masiva, permitiéndote explorar y conquistar con confianza el vasto mundo de Elden Ring. ¡Vamos a sumergirnos y transformar tu experiencia de juego temprano!
+<Section icon={Map} title="Comprendiendo el Ciclo de Juego Principal">
 
-## Prerrequisitos para tu granja de runas al principio del juego
+Build a Ring Farm es un sofisticado simulador de agricultura de Roblox que integra la progresión inactiva con mecánicas de estilo gacha. A diferencia de los juegos de agricultura tradicionales donde el trabajo manual es el foco principal, este título enfatiza la automatización y la gestión estratégica de recursos. Tu viaje comienza con una única parcela en forma de anillo, un aserradero básico y un aspersor giratorio.
 
-Antes de que salgamos a amasar una fortuna en runas, hay algunos elementos y ubicaciones esenciales que deberás desbloquear. Estos pasos son sencillos y se pueden completar muy temprano en el juego.
+El ciclo fundamental consta de cuatro acciones principales: **Plantar**, **Mejorar**, **Vender** y **Repetir**. A medida que cosechas cultivos utilizando tu aserradero automatizado, generas dinero que debe ser reinvertido en tu infraestructura. El juego destaca por introducir una mecánica de tirada de semillas, donde cada tirón de la palanca otorga una rareza de semilla aleatoria. Esta imprevisibilidad dicta tu trayectoria de crecimiento y requiere una adaptación constante de tu diseño.
 
-*   **Torrentera (Corcel Espectral):** Tu fiel corcel espectral es absolutamente vital para esta estrategia, ya que permite un desplazamiento rápido a través de grandes distancias y una huida veloz del peligro. Si aún no has desbloqueado a Torrentera, simplemente visita algunos Lugares de Gracia hasta que Melina aparezca y te ofrezca el Silbato de Corcel Espectral.
-*   **Fragmentos de mapa:** Aunque no es estrictamente obligatorio, tener el mapa desbloqueado para Necrolimbo y Caelid (específicamente, Montedrago) facilitará significativamente la navegación.
-*   **Pata de ave en escabeche dorada:** Este objeto consumible aumenta temporalmente la adquisición de runas en un 30%. Usaremos uno en un momento crítico para maximizar nuestras ganancias. Puedes encontrar uno al principio dirigiéndote al sur desde el Lugar de Gracia "Primer Paso", saltando por los acantilados y luego cabalgando hacia el este a lo largo de la costa hasta el cuerpo de un peregrino.
-*   **Maza con púas (Arma):** Este mangual es crucial para nuestra granja de runas debido a su efecto de sangrado innato. Incluso si no cumples con sus requisitos de fuerza, puedes empuñarlo con dos manos (mantén Y/Triángulo y presiona Ataque Ligero) para usarlo eficazmente.
-    *   Para obtener la Maza con púas, viaja hacia el sureste desde el Lugar de Gracia "Lago Agheel (Sur)", siguiendo el camino a través de la Península del Llanto. Cruza el Puente del Sacrificio (esquiva los disparos de balista escuchándolos y rodando a la derecha), y continúa hacia el sur por el camino. Encontrarás la Maza con púas en un cofre en la parte trasera de un carruaje averiado en un cruce en T.
+| Mecánica | Función | Importancia |
+| --- | --- | --- |
+| **Aserradero** | Cosecha automáticamente los cultivos maduros en su camino | **Alta** (Genera Ingresos) |
+| **Aspersor** | Riega los cultivos para asegurar el crecimiento y la mutación | **Alta** (Genera Velocidad) |
+| **Palanca de Semillas** | Otorga semillas aleatorias según las estadísticas de Suerte | **Crítica** (Genera Nivel) |
+| **Trituradora de Semillas** | Intercambia semillas no deseadas por recompensas especiales | **Media** (Genera Eficiencia) |
 
-## Navegando hacia la ubicación de la granja de runas de Montedrago
+<Callout type="tip" title="Consejo del Editor">
+Recuerda siempre que tu dinero no crece automáticamente en tu billetera. Debes recolectar y vender activamente tu cosecha para obtener tus ganancias. En el juego temprano, es fácil distraerse tirando semillas y olvidar hacer clic en el botón 'Vender', lo que detiene tu progresión.
+</Callout>
 
-Con tus prerrequisitos en la mano, es hora de dirigirnos a la región de Montedrago, donde nos espera nuestro objetivo. Este viaje implica un poco de desplazamiento, pero las recompensas valen la pena.
+</Section>
 
-1.  **De Lago Agheel (Sur) a la Tercera Iglesia de Márika:** Viaja rápido de vuelta al Lugar de Gracia "Lago Agheel (Sur)". Desde allí, dirígete directamente hacia el norte por el camino. Ignora el desvío a través del puente a la izquierda y continúa recto hacia el norte por el camino de tierra hasta llegar a la Tercera Iglesia de Márika. Activa el Lugar de Gracia allí.
-2.  **Usando el teletransportador:** Desde la Tercera Iglesia de Márika, mira hacia el norte, hacia el lago. Verás una brecha en las ruinas. Atraviesa esta brecha y baja hasta la orilla del lago. Escondido entre unos arbustos cerca de la orilla del agua hay un teletransportador. Interactúa con él para ser transportado instantáneamente al Santuario Bestial en Montedrago.
-3.  **Viaje al Dragón Durmiente:** Al llegar al Santuario Bestial, te encontrarás en una zona de alto nivel. No te preocupes por los enemigos; los ignoraremos.
-    *   Desde el Santuario Bestial, mira hacia el sur. Verás un árbol dorado a lo lejos, este es tu punto de referencia.
-    *   Monta a Torrentera y pasa de largo al gran enemigo cerca de la entrada del Santuario (no te atrapará).
-    *   Sigue el camino mientras se curva hacia el sureste. Pronto verás un puente enorme con un dragón igualmente enorme sobre él. Cabalga rápidamente a través del puente; el dragón es inofensivo y no atacará si eres lo suficientemente rápido (a menudo, cabalgar entre sus patas funciona mejor).
-    *   Justo antes de que termine el puente, a tu izquierda, encontrarás un Lugar de Gracia. Actívalo.
-    *   Continúa por el camino, dirigiéndote hacia el árbol dorado que avistaste antes. Ignora cualquier rayo; aquí no causan daño.
-    *   Te encontrarás con una serie de grandes vasijas brillantes. Maniobra entre ellas y luego dirígete a la izquierda subiendo por una pendiente rocosa. Esto te llevará al Erdtree Menor.
-    *   Desde el Erdtree Menor, dirígete directamente hacia el oeste a lo largo del borde del acantilado. Sigue este camino, ignorando a cualquier enemigo. Eventualmente, tendrás que bajar por una cornisa.
-    *   Continúa cabalgando hasta llegar a un área con un acantilado escarpado. Navega con cuidado por una pequeña formación rocosa aquí. Verás un gran dragón a tu izquierda. Cabalga alrededor de su ala derecha, por detrás de él, y salta por un pequeño hueco. Ahora deberías estar a salvo detrás del dragón durmiente.
+<Section icon={Sparkles} title="Niveles de Semillas y Progresión de Rareza">
 
-<YouTubeEmbed videoId="I6xvvJr9yQY" title="Elden Ring - Level Up FAST with this Early Rune Farm - Best Start Guide for any Class Build!" />
+El éxito en esta **guía para principiantes de build a ring farm** depende de tu comprensión de la escala de rareza. Las semillas son el alma de tu operación, y su valor base determina tu nivel de ingresos. Mientras que una Zanahoria común podría rendir solo $3 por unidad, las semillas de nivel superior pueden alcanzar valores en los billones.
 
-## Ejecutando la estrategia de la granja de runas de Montedrago
+La progresión sigue una jerarquía estricta. Los principiantes a menudo cometen el error de invertir demasiado en cultivos de bajo nivel. Aunque la mejora aumenta el valor por unidad, el costo de escalada supera rápidamente el retorno de la inversión para las semillas Comunes e Infrecuentes.
 
-Ahora que estás en posición, es hora de poner en práctica nuestra estrategia de **granja de runas para principiantes**. Este método explota la vulnerabilidad del dragón durmiente al daño por hemorragia y su incapacidad para contraatacar.
+<CardGrid cols={3}>
+  <Card title="Niveles Bajos (Comunes-Raros)">
+    - **Cultivos**: Zanahorias, Remolacha, Repollo
+    - **Estrategia**: Usar solo para cerrar la brecha hasta las semillas Épicas.
+    - **Límite de Nivel**: Detenerse en el Nivel 10.
+  </Card>
+  <Card title="Niveles Medios (Épicos-Legendarios)">
+    - **Cultivos**: Girasol, Ciruela, Calabaza
+    - **Estrategia**: Concéntrate en estos para tu primera expansión de Anillo.
+    - **Límite de Nivel**: Nivel 25-30.
+  </Card>
+  <Card title="Niveles Altos (Secretos-Exóticos)">
+    - **Cultivos**: Prismático, Divino, Exótico
+    - **Estrategia**: Estos son tus generadores de dinero a largo plazo.
+    - **Límite de Nivel**: Maximizar los niveles inmediatamente.
+  </Card>
+</CardGrid>
 
-1.  **Posicionamiento:** Desmóntate de Torrentera y entra en modo sigilo (agáchate). Asegúrate de que ningún otro enemigo te haya seguido. Camina hacia el área de la "axila" entre el ala y el cuerpo del dragón. Este lugar es seguro y el dragón no te atacará.
-2.  **Aplicando Hemorragia:** Equipa tu Maza con púas y empúñala a dos manos. Comienza a atacar ligeramente al dragón. Tu daño directo será mínimo, pero la clave es acumular el efecto de sangrado. Cada golpe contribuye a un medidor de sangrado oculto.
-3.  **El Estallido de Hemorragia:** Después de varios ataques, el efecto de sangrado se activará, infligiendo una gran cantidad de daño basado en porcentaje (alrededor de 13,400 por activación). Esto agotará rápidamente la salud del dragón. Continúa atacando ligeramente, controlando tu resistencia, hasta que la salud del dragón sea extremadamente baja, solo un poco.
-4.  **Maximizando las ganancias de runas:** Este es el paso más crucial.
-    *   **¡NO mates al dragón todavía!**
-    *   Una vez que la salud del dragón sea críticamente baja, abre tu inventario y usa una Pata de ave en escabeche dorada. Verás aparecer un icono, indicando que el aumento de runas está activo.
-    *   Inmediatamente después de usar la Pata de ave, asesta los últimos golpes al dragón para activar la última activación de sangrado y derrotarlo.
-    *   Con la Pata de ave activa, ¡recibirás aproximadamente 96,720 runas de esta única muerte!
+| Nivel de Semilla | Ejemplo de Cultivo | Valor Base (Inicial) | Recomendación |
+| --- | --- | --- | --- |
+| **Común** | Zanahoria | $3 | Reemplazar lo antes posible |
+| **Rara** | Repollo | $85 | Buena ganancia temprana |
+| **Épica** | Ciruela | $500+ | Base sólida para el juego medio |
+| **Legendaria** | Girasol | $2,500+ | Foco principal para el Anillo 2 |
+| **Exótica** | Nivel Superior | Billones | Objetivo de fin de juego |
 
-Esta muerte de dragón es un evento único por partida, pero proporciona un increíble impulso al principio del juego. Luego puedes viajar rápidamente de regreso al Lugar de Gracia "Primer Paso" o a cualquier otra ubicación deseada para gastar tus runas ganadas con tanto esfuerzo. Dependiendo de tu clase inicial y nivel, 100,000 runas pueden fácilmente darte entre 20 y 25 niveles, mejorando significativamente el poder de tu personaje.
+<Callout type="warning" title="Gestión de Residuos">
+No acumules semillas Comunes en tu inventario. Usa la **Trituradora de Semillas** diariamente para deshacerte del inventario de bajo valor y recibir recompensas que contribuyen a la eficiencia general de tu granja.
+</Callout>
 
-## Mejorando aún más tus esfuerzos de farmeo de runas
+</Section>
 
-Aunque el dragón durmiente es un evento único, existen formas de optimizar aún más tu adquisición de runas en Elden Ring a medida que avanzas.
+<Section icon={Target} title="Mejoras Prioritarias para el Éxito Temprano">
 
-*   **Talismán Escarabeo Dorado:** Este invaluable talismán aumenta la adquisición de runas en un 20% adicional. Cuando se combina con una Pata de ave en escabeche dorada, obtendrás un aumento masivo del 50% en runas de los enemigos derrotados. El Escarabeo Dorado se obtiene al derrotar a los Caballeros de la Podredumbre en la Cueva Abandonada en Caelid. Este es un encuentro más desafiante, pero la recompensa es permanente.
-*   **Farmeo de Patas de ave en escabeche doradas:** Dado que las Patas de ave en escabeche doradas son consumibles, querrás un suministro constante para futuras empresas de farmeo. Estas se pueden fabricar usando:
-    *   **Carne escarchada:** La sueltan las Aves que se encuentran en varios lugares.
-    *   **Fruto de Rowa:** Abundante en todas las Tierras Intermedias.
-    *   **Pata de ave de cuatro dedos:** La sueltan las Aves.
-    *   El Libro de recetas del misionero [2] es necesario para aprender la receta, que se puede comprar a Parches.
-*   **Otras ubicaciones de granjas de runas:** A medida que avanzas, otras granjas de runas eficientes estarán disponibles. La granja de aves del "Palacio de Mohgwyn" es una opción popular al final del juego, que ofrece cientos de miles de runas por minuto una vez desbloqueada. Sin embargo, para un impulso inicial, nada supera al dragón durmiente por su facilidad y accesibilidad temprana.
+En las primeras horas de juego, tus fondos serán limitados. Distribuir tu dinero en cada mejora disponible es una receta para el estancamiento. Para crecer rápido, debes priorizar las mecánicas que impactan directamente tu "ingreso por minuto" (IPM).
 
-Recuerda, una construcción de personaje bien planificada es tan importante como tener runas. Si bien esta **guía para principiantes sobre cómo construir una granja de runas** te ayuda a conseguir las runas, considera consultar guías de construcción de personajes para asignar tus estadísticas de manera efectiva y crear un Sinluz poderoso.
+<Steps>
+  <Step num="1" title="Optimización del Rendimiento de la Sierra">
+    Prioriza el **Rendimiento de la Sierra** por encima de todo. Esta estadística determina cuánto cultivo recolecta tu aserradero en cada pasada. Si tu rendimiento es bajo, estás dejando dinero en el suelo. Alcanza al menos el Nivel 8 antes de pasar a otras mejoras.
+  </Step>
+  <Step num="2" title="Potencia y Alcance del Aspersor">
+    Tus cultivos no crecerán sin agua. La **Potencia del Aspersor** aumenta la velocidad de crecimiento, mientras que el **Alcance** asegura que, a medida que te expandes a anillos exteriores, cada parcela esté cubierta. Una parcela sin regar es una parcela desperdiciada.
+  </Step>
+  <Step num="3" title="Inversión en Suerte de Semillas">
+    Una vez que tu infraestructura sea estable, invierte en **Suerte de Semillas**. Esto mejora el RNG de las tiradas de palanca, permitiéndote evitar la monotonía de las semillas de nivel inferior y saltar directamente a cultivos de alto valor como Melones o Calabazas.
+  </Step>
+</Steps>
 
-## Preguntas frecuentes
+| Mejora | Beneficio Principal | Nivel Temprano Recomendado |
+| --- | --- | --- |
+| **Rendimiento de la Sierra** | Más dinero por cosecha | Nivel 10+ |
+| **Potencia del Aspersor** | Ciclos de crecimiento más rápidos | Nivel 7 |
+| **Alcance de la Sierra** | Cubre parcelas de anillos exteriores | Nivel 5 |
+| **Suerte de Semillas** | Obtención de semillas de mayor rareza | Nivel 10 |
 
-**P: ¿Puedo usar esta guía para principiantes sobre cómo construir una granja de runas con cualquier clase?**
-R: ¡Sí, absolutamente! Este método se basa principalmente en el efecto de sangrado de la Maza con púas, que no requiere estadísticas altas. Incluso un personaje inicial puede usar eficazmente una Maza con púas a dos manos para derrotar al dragón durmiente.
+<Callout type="success" title="Estrategia Profesional">
+Si notas que tu aspersor no llega a las parcelas más externas de tu anillo actual, detén todos los demás gastos y concéntrate exclusivamente en el **Alcance del Aspersor**. Los cultivos inactivos generan cero ingresos, lo que convierte esas parcelas en una responsabilidad hasta que sean regadas.
+</Callout>
 
-**P: ¿Cuántas runas puedo esperar de esta granja al principio del juego?**
-R: Con la Pata de ave en escabeche dorada activa, recibirás aproximadamente 96,720 runas al derrotar al dragón durmiente. Esta es una cantidad sustancial para el principio del juego.
+</Section>
 
-**P: ¿Qué pasa si mato accidentalmente al dragón antes de usar la Pata de ave en escabeche dorada?**
-R: Si matas al dragón sin la Pata de ave activa, seguirás recibiendo una cantidad significativa de runas (alrededor de 70,000), pero te perderás el impulso adicional del 30%. El dragón es una muerte única por partida, por lo que no podrás repetir esta granja específica hasta la Nueva Partida+.
+<Section icon={Shield} title="El Sistema de Mutación: Multiplicadores Explicados">
 
-**P: ¿Dónde puedo conseguir más Patas de ave en escabeche doradas para futuras granjas de runas?**
-R: Las Patas de ave en escabeche doradas se pueden fabricar una vez que adquieras el Libro de recetas del misionero [2] y reúnas los materiales necesarios: Carne escarchada, Fruto de Rowa y Pata de ave de cuatro dedos. Farmear Aves es una buena manera de obtener los ingredientes únicos de la pata de ave.
+Las mutaciones son el "ingrediente secreto" de Build a Ring Farm. Aplican efectos visuales y, lo que es más importante, multiplicadores de ingresos masivos a tus cultivos. Entender cómo activar y mantener estas mutaciones es lo que separa a los jugadores promedio de los que más ganan. Las mutaciones ocurren aleatoriamente durante eventos climáticos específicos o pueden ser forzadas usando aerosoles caros de la Tienda de Equipamiento.
+
+| Mutación | Multiplicador | Apariencia | Método de Adquisición |
+| --- | --- | --- | --- |
+| **Húmedo** | **1.5x** | Similar al agua | Evento de Lluvia (8%) o Aerosol Húmedo |
+| **Congelado** | **1.75x** | Congelado/Helado | Evento de Tormenta de Nieve (4%) o Aerosol Congelado |
+| **Vacío** | **2.25x** | Negro/Oscuro | Evento de Agujero Negro (3%) o Aerosol de Vacío |
+| **Radiactivo** | **3x** | Neón Verde | Evento Nuclear (2%) o Aerosol Radiactivo |
+| **Arcoíris** | **5x** | Colores Dinámicos | Evento de Galaxia (1%) o Aerosol Arcoíris |
+
+<Callout type="info" title="Reglas de Mutación">
+- **Sin Apilamiento**: Una planta solo puede tener una mutación a la vez.
+- **Persistencia**: Las mutaciones permanecen hasta que la planta es reemplazada o eliminada con Aerosol Ácido.
+- **Solo Activas**: Las mutaciones no se aplicarán mientras estés desconectado. Debes estar en el juego durante el evento.
+</Callout>
+
+Si tienes un cultivo de alto valor que adquiere una mutación de nivel inferior como "Húmedo", es posible que eventualmente quieras usar **Aerosol Ácido** ($1M) para eliminarla e intentar una mutación "Arcoíris" durante un evento de Galaxia. Sin embargo, para los principiantes, cualquier mutación es una buena mutación.
+
+</Section>
+
+<Section icon={Trophy} title="Expansión y Metas a Largo Plazo">
+
+A medida que tus ingresos se estabilicen, buscarás expandir tu granja hacia afuera. El juego escala significativamente, pasando de miles a billones de dólares a medida que desbloqueas nuevos pisos y anillos.
+
+<Checklist
+  id="expansion-milestones"
+  title="Lista de Verificación de Progresión:"
+  items={[
+    "Llena los 8 espacios del primer anillo con semillas Raras+",
+    "Alcanza el Nivel 15 en Rendimiento de la Sierra y Potencia del Aspersor",
+    "Desbloquea el segundo anillo de parcelas",
+    "Obtén al menos una mutación Radiactiva o Arcoíris",
+    "Desbloquea el segundo piso para una expansión masiva"
+  ]}
+/>
+
+Al expandirte, evita la tentación de desbloquear una nueva parcela si no puedes permitirte poblarla inmediatamente con una semilla decente. Una parcela vacía en un anillo exterior cuesta más en mejoras de alcance de lo que proporciona en valor si permanece vacía o contiene una Zanahoria Común.
+
+<Callout type="tip" title="Estrategia sin Conexión">
+Antes de desconectarte por el día, asegúrate de que tus semillas más valiosas estén plantadas y regadas. El juego calcula las ganancias sin conexión basándose en el estado actual de tu granja, lo que lo convierte en una excelente manera de despertar con millones de dólares.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor mutación a buscar en Build a Ring Farm?",
+    answer: "La mutación Arcoíris es actualmente la mejor del juego, ofreciendo un multiplicador de ingresos de 5x. Es la más rara de obtener, con solo un 1% de probabilidad durante los Eventos de Galaxia."
+  },
+  {
+    question: "¿Debo gastar Robux en semillas al principio?",
+    answer: "No es necesario. Al centrarte en las mejoras de Suerte de Semillas y utilizar esta guía para principiantes de build a ring farm, puedes desbloquear semillas de alto nivel como Legendarias y Secretas a través del juego estándar."
+  },
+  {
+    question: "¿Cómo elimino una mutación que no quiero?",
+    answer: "Puedes comprar Aerosol Ácido en la Tienda de Equipamiento por $1M. Esto eliminará la mutación actual, permitiendo que la planta adquiera una nueva durante el próximo evento."
+  },
+  {
+    question: "¿Las mejoras se mantienen cuando desbloqueo un nuevo piso?",
+    answer: "Sí, tus mejoras de infraestructura central como Rendimiento de la Sierra y Potencia del Aspersor proporcionan la base para tu progreso en diferentes pisos y anillos."
+  }
+]} />
+
+</Section>
