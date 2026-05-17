@@ -61,42 +61,42 @@
     "subtitle": "Jump to the most useful Build A Ring Farm modules",
     "cards": [
       {
-        "icon": "Ticket",
+        "icon": "BookOpen",
         "title": "Build A Ring Farm Codes",
         "description": "Active and expired codes plus quick redeem fixes"
       },
       {
-        "icon": "Sprout",
+        "icon": "Sparkles",
         "title": "Build A Ring Farm Beginner Guide",
         "description": "First-session route from planting to upgrades"
       },
       {
-        "icon": "FlaskConical",
+        "icon": "Hammer",
         "title": "Build A Ring Farm Mutations Tier List",
         "description": "Mutation multipliers, event odds, and best picks"
       },
       {
-        "icon": "Wheat",
+        "icon": "Package",
         "title": "Build A Ring Farm Seeds and Crops Guide",
         "description": "Seed pack rewards, crop paths, and value notes"
       },
       {
-        "icon": "ShoppingBag",
+        "icon": "Home",
         "title": "Build A Ring Farm Gear Shop Guide",
         "description": "Sprays, fertilizers, and best purchase order"
       },
       {
-        "icon": "Coins",
+        "icon": "Eye",
         "title": "Build A Ring Farm Money Farming Guide",
         "description": "Cash loops, reinvest strategy, and scaling tips"
       },
       {
-        "icon": "CloudRain",
+        "icon": "AlertTriangle",
         "title": "Build A Ring Farm Weather Events Guide",
         "description": "Rain to Galaxy event timing and mutation planning"
       },
       {
-        "icon": "Compass",
+        "icon": "ArrowRight",
         "title": "Build A Ring Farm Wiki Trello and Discord Guide",
         "description": "Official links and where updates are posted"
       }
